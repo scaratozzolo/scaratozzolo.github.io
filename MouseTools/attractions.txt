@@ -1,7 +1,7 @@
 Stitch's Great Escape! - Temporarily Closed:5490
 Monsters, Inc. Laugh Floor:136550
 Walt Disney World Railroad - Frontierland:2219610
-Walt Disney's Enchanted Tiki Room:16124144
+Walt Disney's Enchanted Tiki Room:353325
 Sorcerers of the Magic Kingdom:16414579
 The Barnstormer:16491297
 Walt Disney World Railroad - Fantasyland:16491299
@@ -18,25 +18,25 @@ Pirates at Walt Disney World Resort:18466383
 Pirates at Walt Disney World:18485750
 Horses - Disney Animals:18677928
 Astro Orbiter:80010107
-Big Thunder Mountain Railroad:80010110
+Big Thunder Mountain Railroad:353295
 Buzz Lightyear's Space Ranger Spin:80010114
 Prince Charming Regal Carrousel:80010117
-Dumbo the Flying Elephant:80010129
+Dumbo the Flying Elephant:353323
 Frontierland Shootin' Arcade:80010135
-"it's a small world":80010149
-Jungle Cruise:80010153
+"it's a small world":367492
+Jungle Cruise:353363
 Liberty Square Riverboat:80010160
 Mad Tea Party:80010162
-Main Street Vehicles:80010165
+Main Street Vehicles:393385
 Mickey's PhilharMagic:80010170
 Peter Pan's Flight:80010176
 Pirates of the Caribbean:80010177
-Space Mountain:80010190
-Splash Mountain:80010192
+Space Mountain:353435
+Splash Mountain:353437
 Swiss Family Treehouse:80010196
-Haunted Mansion:80010208
+Haunted Mansion:353347
 The Magic Carpets of Aladdin:80010210
-The Many Adventures of Winnie the Pooh:80010213
+The Many Adventures of Winnie the Pooh:353449
 Tom Sawyer Island:80010220
 Tomorrowland Speedway:80010222
 Tomorrowland Transit Authority PeopleMover:80010224
@@ -167,8 +167,8 @@ Wandering Oaken's Frozen Snowground:17844192
 Take-Along Olaf:17844222
 Star Wars: Rebels - The Ultimate Guide:18115367
 "Frozen Fever" Short Film:18120858
-Star Wars Launch Bay:18240543
-Star Wars: Path of the Jedi:18240966
+Star Wars Launch Bay:18237343
+Star Wars: Path of the Jedi:18243993
 Star Wars at Walt Disney World Resort:18263038
 Star Wars Photo Opportunities:18276132
 Star Wars Launch Bay Theater:18360041
@@ -230,7 +230,7 @@ Dino-Sue:80010124
 Discovery Island Trails:80010126
 Fossil Fun Games:80010133
 Habitat Habit!:80010140
-It's Tough to be a Bug!:80010150
+It's Tough to be a Bug!:353359
 Kali River Rapids:80010154
 Kilimanjaro Safaris:80010157
 Maharajah Jungle Trek:80010164
@@ -241,3 +241,96 @@ The Oasis Exhibits:80010214
 Tree of Life:80010217
 TriceraTop Spin:80010228
 Wildlife Express Train:80010235
+Astro Orbitor:353291
+Autopia:353293
+Buzz Lightyear Astro Blasters :353301
+Casey Jr. Circus Train:353305
+Chip 'n Dale Treehouse:353309
+Davy Crockett's Explorer Canoes:353311
+Disneyland Monorail:353313
+Disneyland Railroad:353315
+Donald's Boat:353321
+Finding Nemo Submarine Voyage:353327
+Fire Engine, presented by National Car Rental:353329
+Frontierland Shootin' Exposition:353335
+Gadget's Go Coaster:353337
+Goofy's Playhouse:353343
+Horse-Drawn Streetcars, presented by National Car Rental:353351
+Horseless Carriage, presented by National Car Rental:353353
+Indiana Jones Adventure :353355
+King Arthur Carrousel:353365
+Mad Tea Party :353369
+Main Street Cinema:353371
+Mark Twain Riverboat:353375
+Matterhorn Bobsleds:353377
+Mickey's House and Meet Mickey:353381
+Minnie's House:353383
+Mr. Toad's Wild Ride :353389
+Omnibus, presented by National Car Rental:353395
+Peter Pan's Flight :353399
+Pinocchio's Daring Journey:353401
+Pirate's Lair on Tom Sawyer Island:353403
+Pirates of the Caribbean :353405
+Roger Rabbit's Car Toon Spin:353421
+Sailing Ship Columbia:353425
+Sleeping Beauty Castle Walkthrough:353427
+Snow White's Scary Adventures:353429
+Star Tours - The Adventures Continue:353439
+Storybook Land Canal Boats:353443
+Tarzan's Treehouse:353445
+The Disneyland Story presenting Great Moments with Mr. Lincoln:353461
+Alice in Wonderland:367495
+Pixie Hollow:3433651
+Fantasmic!:16204726
+The Disney Gallery:17734741
+Trick-or-Treating at Mickey's Halloween Party:18171939
+Jingle Cruise:18237168
+"it's a small world" Holiday:18237232
+Hyperspace Mountain:18237368
+Haunted Mansion Holiday:18249927
+Space Mountain Ghost Galaxy:18449559
+Main Street Pumpkin Festival:18452199
+Holiday Décor:18532806
+Mickey's Park Rangers on the Rivers of America:18741420
+Animation Academy:353289
+California Screamin':353303
+Flik's Flyers:353331
+Francis' Ladybug Boogie:353333
+Games of the Boardwalk:353339
+Golden Zephyr:353341
+Grizzly River Run:353345
+Heimlich's Chew Chew Train:353349
+Jumpin' Jellyfish:353361
+King Triton's Carousel:353367
+Mickey's Fun Wheel:353379
+Monsters, Inc. Mike & Sulley to the Rescue!:353387
+Princess Dot Puddle Park:353409
+Redwood Creek Challenge Trail:353413
+Soarin' Around the World:353431
+Sorcerer's Workshop:353433
+The Bakery Tour:353447
+Guardians of the Galaxy - Mission: BREAKOUT!:353451
+Toy Story Midway Mania!:353453
+Tuck and Roll's Drive 'Em Buggies:353455
+Turtle Talk with Crush:353457
+Silly Symphony Swings:15510732
+The Little Mermaid - Ariel's Undersea Adventure:15575069
+Goofy's Sky School:15822029
+World of Color:16203280
+Radiator Springs Racers:16514416
+Mater's Junkyard Jamboree:16514431
+Red Car Trolley:16581435
+Red Car Trolley - Hollywood Land:17328049
+Red Car Trolley - Carthay Circle:17328050
+Luigi's Rollickin' Roadsters:18343088
+Frozen at Disneyland Resort:18426726
+Disney's "Moana” Sneak Peek:18505453
+Disney-Pixar's "Cars 3" Sneak Peek:18710579
+Mater's Graveyard JamBOOree:18752875
+Luigi's Honkin' Haul-O-Ween:18752877
+Halloween Time Décor at Disney California Adventure Park:18755618
+Disney-Pixar's "Coco" Sneak Peek:18766537
+Guardians of the Galaxy - Monsters After Dark:18774860
+Luigi's Joy to the Whirl:18848246
+Mater's Jingle Jamboree:18848247
+Disney's "A Wrinkle in Time" Sneak Peek:18946452

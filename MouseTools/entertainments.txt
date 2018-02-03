@@ -1,9 +1,9 @@
 Flag Retreat:7922
 Main Street Trolley Show:8067
 Casey's Corner Pianist:8074
-The Dapper Dans:8075
+The Dapper Dans:401463
 Hoedown Happening:8113
-Meet Disney Friends in Town Square:8274
+Meet Disney Friends in Town Square:422670
 Meet Alice in Wonderland at the Mad Tea Party:8277
 Meet Characters from Aladdin in Adventureland:8279
 Let the Magic Begin:8336
@@ -57,6 +57,7 @@ Norway Vikings:18441697
 Disney on Broadway Concert Series:18649509
 Matboukha Groove:18649512
 Epcot Living Statues:18654112
+Community Arts Showcase:18654114
 Disney Performing Arts Showcase:18660197
 The SpectacuLAB:18846430
 Groovin' Alps:18923661
@@ -75,10 +76,10 @@ Citizens of Hollywood:242220
 Meet Buzz Lightyear & Woody at Pixar Place:279230
 Disney Junior - Live on Stage!:15839605
 For the First Time in Forever: A Frozen Sing-Along Celebration:17842841
-Meet Chewbacca at Star Wars Launch Bay:18189394
-Jedi Training: Trials of the Temple:18240816
-Disney Visa Cardmember Star Wars Character Experience:18299758
-Encounter Kylo Ren at Star Wars Launch Bay:18361662
+Meet Chewbacca at Star Wars Launch Bay:18237385
+Jedi Training: Trials of the Temple:18243995
+Disney Visa Cardmember Star Wars Character Experience:18299866
+Encounter Kylo Ren at Star Wars Launch Bay:18817397
 Celebrity Spotlight:18368385
 Mickey and Minnie Starring in Red Carpet Dreams:18368386
 Star Wars: A Galactic Spectacular:18378182
@@ -88,7 +89,7 @@ BB-8 Astromech on Duty:18669338
 Meet Cruz Ramirez on Pixar Place:18693117
 Disney Movie Magic:18693119
 Beauty and the Beast-Live on Stage:80010848
-Fantasmic!:80010887
+Fantasmic!:401483
 Voyage of The Little Mermaid:80010896
 Festival of the Lion King:12432
 Meet Rafiki at Rafiki's Planet Watch :13110
@@ -116,3 +117,52 @@ Animal Encounters: It All Started with a Mouse:18572874
 Meet Doc McStuffins in Conservation Station:18588660
 Meet Timon near Creature Comforts:18797696
 Animal Encounters: Up-Close Interactions:18869376
+"Minnie & Friends - Breakfast in the Park":401451
+Disneyland Band at Main Street, U.S.A.:401473
+Meet Goofy, Pluto and Pals in Mickey's Toontown:401491
+Jambalaya Jazz:401501
+Main Street Piano Player:401517
+Meet Minnie at Her House in Mickey's Toontown:401519
+Meet Tinker Bell or a Fairy Friend at Pixie Hollow:401524
+Meet Mickey at His House in Mickey's Toontown:401526
+Pearly Band:401530
+Royal Street Bachelors:401542
+The Straw Hatters:401554
+Meet Winnie The Pooh and Friends in Critter Country:17631233
+The Laughing Stock Co.:16010318
+Storytelling at Royal Theatre:17346575
+Mickey and the Magical Map:17437680
+The Royal Swing Big Band Ball Featuring Swingtown:17470942
+Disneyland Band at Frontierland:18154861
+Silver Dollar Six:18161004
+Encounter Darth Vader at Star Wars Launch Bay:18237377
+The Royal Swing Big Band Ball:18644903
+Meet Disney Princesses at Royal Hall:18738682
+Fantasmic! Dining Packages:18764708
+Disneyland Band at Tomorrowland:18977136
+Meet Disney Pals on Buena Vista Street:401471
+World of Color:401479
+Turtle Talk with Crush:401560
+Disney Visa Cardmember Character Experience:422666
+Meet Flik at Flik's Fun Fair:15536318
+Mariachi Divas:15559914
+Operation: Playtime! - featuring the Green Army Men:15559941
+Citizens of Buena Vista Street:16428783
+Meet the Residents of Radiator Springs in Cars Land:16578447
+Meet Disney Stars in Hollywood Land:16587699
+DJ's Dance 'n Drive:16633163
+Five & Dime:16633170
+Red Car Trolley News Boys:16633177
+Paradise Garden Bandstand:16642243
+Anna & Elsa's Royal Welcome:17563885
+Meet Oswald the Lucky Rabbit on Buena Vista Street:17883969
+Meet Olaf in Hollywood Land:17945275
+Frozen - Live at the Hyperion:18186543
+Mulan's Lunar New Year Procession:18373589
+Heroic Encounter: Spider-Man and Captain America:18407713
+Hurry Home - Lunar New Year Celebration:18614009
+Paradise Garden Bandstand Presents Dat Nguyen:18662098
+World of Color Dining Packages:18758724
+Frozen - Live at the Hyperion Dining Packages:18771248
+Heroic Encounter: Thor & Loki:18852322
+GuGu Drum Group:18954810
