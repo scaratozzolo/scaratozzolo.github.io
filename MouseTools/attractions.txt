@@ -40,12 +40,12 @@ The Many Adventures of Winnie the Pooh:353449
 Tom Sawyer Island:80010220
 Tomorrowland Speedway:80010222
 Tomorrowland Transit Authority PeopleMover:80010224
-Walt Disney World Railroad - Main Street, U.S.A:80010230
+Walt Disney World Railroad - Main Street, U.S.A.:80010230
 Walt Disney's Carousel of Progress:80010232
 Country Bear Jamboree:80069748
 The Hall of Presidents:80069754
 Advanced Training Lab:3831
-Soarin':20194
+Soarin' Around the World:353431
 American Heritage Gallery:26421
 Bruce's Shark World:56404
 Stave Church Gallery:61525
@@ -151,14 +151,13 @@ Innoventions:80010147
 Journey Into Imagination With Figment:80010152
 Leave A Legacy:80010159
 Living with the Land:80010161
-RELAUNCHED! Mission: SPACE:80010173
+Mission: SPACE:80010173
 O Canada!:80010174
 Reflections of China:80010180
 SeaBase:80010184
 Spaceship Earth:80010191
 Test Track:80010199
 The American Adventure:80010200
-The Circle of Life:80010204
 Mexico Folk Art Gallery:80069743
 Bijutsu-kan Gallery:80069745
 Lights, Motors, Action! Extreme Stunt Show:15026
@@ -172,12 +171,10 @@ Star Wars: Path of the Jedi:18243993
 Star Wars at Walt Disney World Resort:18263038
 Star Wars Photo Opportunities:18276132
 Star Wars Launch Bay Theater:18360041
-Disney's "Pirates of the Caribbean: Dead Men Tell No Tales" Sneak Peek:18696264
 Walt Disney Presents:18770880
-Slinky Dog Dash - Opening Summer 2018!:18904138
-Alien Swirling Saucers - Opening Summer 2018!:18904172
-Disney's “A Wrinkle in Time” Sneak Peek - Opening Early February:18947974
-Toy Story Land - Opening Summer 2018!:18965917
+Slinky Dog Dash - Opening June 30, 2018!:18904138
+Alien Swirling Saucers - Opening June 30, 2018!:18904172
+Toy Story Land - Opening June 30, 2018!:18965917
 Indiana Jones Epic Stunt Spectacular!:80010146
 Muppet*Vision 3D:80010151
 Rock 'n' Roller Coaster Starring Aerosmith:80010182
@@ -230,7 +227,7 @@ Dino-Sue:80010124
 Discovery Island Trails:80010126
 Fossil Fun Games:80010133
 Habitat Habit!:80010140
-It's Tough to be a Bug!:353359
+It's Tough to be a Bug!:80010150
 Kali River Rapids:80010154
 Kilimanjaro Safaris:80010157
 Maharajah Jungle Trek:80010164
@@ -251,12 +248,12 @@ Disneyland Monorail:353313
 Disneyland Railroad:353315
 Donald's Boat:353321
 Finding Nemo Submarine Voyage:353327
-Fire Engine, presented by National Car Rental:353329
+Main Street Vehicles - Fire Engine:353329
 Frontierland Shootin' Exposition:353335
 Gadget's Go Coaster:353337
 Goofy's Playhouse:353343
-Horse-Drawn Streetcars, presented by National Car Rental:353351
-Horseless Carriage, presented by National Car Rental:353353
+Main Street Vehicles - Horse-Drawn Streetcars:353351
+Main Street Vehicles - Horseless Carriage:353353
 Indiana Jones Adventure :353355
 King Arthur Carrousel:353365
 Mad Tea Party :353369
@@ -266,7 +263,7 @@ Matterhorn Bobsleds:353377
 Mickey's House and Meet Mickey:353381
 Minnie's House:353383
 Mr. Toad's Wild Ride :353389
-Omnibus, presented by National Car Rental:353395
+Main Street Vehicles - Omnibus:353395
 Peter Pan's Flight :353399
 Pinocchio's Daring Journey:353401
 Pirate's Lair on Tom Sawyer Island:353403
@@ -284,14 +281,12 @@ Pixie Hollow:3433651
 Fantasmic!:16204726
 The Disney Gallery:17734741
 Trick-or-Treating at Mickey's Halloween Party:18171939
-Jingle Cruise:18237168
 "it's a small world" Holiday:18237232
 Hyperspace Mountain:18237368
 Haunted Mansion Holiday:18249927
 Space Mountain Ghost Galaxy:18449559
 Main Street Pumpkin Festival:18452199
 Holiday Décor:18532806
-Mickey's Park Rangers on the Rivers of America:18741420
 Animation Academy:353289
 California Screamin':353303
 Flik's Flyers:353331
@@ -306,7 +301,6 @@ Mickey's Fun Wheel:353379
 Monsters, Inc. Mike & Sulley to the Rescue!:353387
 Princess Dot Puddle Park:353409
 Redwood Creek Challenge Trail:353413
-Soarin' Around the World:353431
 Sorcerer's Workshop:353433
 The Bakery Tour:353447
 Guardians of the Galaxy - Mission: BREAKOUT!:353451
@@ -324,13 +318,35 @@ Red Car Trolley - Hollywood Land:17328049
 Red Car Trolley - Carthay Circle:17328050
 Luigi's Rollickin' Roadsters:18343088
 Frozen at Disneyland Resort:18426726
-Disney's "Moana” Sneak Peek:18505453
-Disney-Pixar's "Cars 3" Sneak Peek:18710579
 Mater's Graveyard JamBOOree:18752875
 Luigi's Honkin' Haul-O-Ween:18752877
 Halloween Time Décor at Disney California Adventure Park:18755618
-Disney-Pixar's "Coco" Sneak Peek:18766537
 Guardians of the Galaxy - Monsters After Dark:18774860
 Luigi's Joy to the Whirl:18848246
 Mater's Jingle Jamboree:18848247
-Disney's "A Wrinkle in Time" Sneak Peek:18946452
+Pixar Shorts Film Festival:18997321
+Pixar Pal-A-Round - Non-Swinging:19009994
+Disney-Pixar's "Incredibles 2" Sneak Peek:19011398
+Typhoon Lagoon Surf Pool:13602
+Crush 'n' Gusher:14200
+Bay Slides:20534
+Miss Adventure Falls:18628633
+Castaway Creek:80010115
+Gangplank Falls:80010138
+Humunga Kowabunga:80010143
+Keelhaul Falls:80010155
+Ketchakiddee Creek:80010156
+Mayday Falls:80010167
+Storm Slides:80010194
+Tike's Peak:71
+Ski Patrol Training Camp:24750
+Chairlift:80010116
+Cross Country Creek:80010122
+Downhill Double Dipper:80010128
+Melt-Away Bay:80010168
+Runoff Rapids:80010183
+Slush Gusher:80010186
+Snow Stormers:80010187
+Summit Plummet:80010195
+Teamboat Springs:80010198
+Toboggan Racers:80010219

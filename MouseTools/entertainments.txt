@@ -1,8 +1,8 @@
 Flag Retreat:7922
+Main Street Philharmonic at Main Street, U.S.A.:8066
 Main Street Trolley Show:8067
 Casey's Corner Pianist:8074
-The Dapper Dans:401463
-Hoedown Happening:8113
+The Dapper Dans:8075
 Meet Disney Friends in Town Square:422670
 Meet Alice in Wonderland at the Mad Tea Party:8277
 Meet Characters from Aladdin in Adventureland:8279
@@ -19,6 +19,7 @@ Meet Merida at Fairytale Garden:16502913
 Meet Gaston near His Tavern:16854108
 Meet Ariel at Her Grotto:16874126
 The Royal Majesty Makers:17022320
+Main Street Philharmonic at Storybook Circus:17394314
 Meet Peter Pan in Fantasyland:17440492
 Meet Rapunzel and Tiana at Princess Fairytale Hall:17505397
 Disney Festival of Fantasy Parade:17718925
@@ -33,8 +34,8 @@ Serveur Amusant:4127
 Turtle Talk With Crush:12039
 Restaurant Marrakesh:13452
 JAMMitors at Future World East:13507
-Alberta Bound:78700
 Meet Disney Pals at the Epcot Character Spot:78704
+Viva Mexico:209984
 Meet Mulan in China:268742
 Meet Snow White in Germany:268746
 Princess Storybook Dining Breakfast at Akershus Royal Banquet Hall:369008
@@ -49,26 +50,20 @@ Meet Mary Poppins in the United Kingdom:15695444
 Disney Visa Cardmember Character Experience at Epcot:15958368
 Jeweled Dragon Acrobats:16207501
 Meet Disney Pals at Legacy Plaza West:16885595
+Rose & Crown Pub Musician:17490262
 Meet Anna and Elsa at Royal Sommerhus:17564219
 Meet Baymax at Hiro's Workshop:18333894
 Meet Joy & Sadness at Headquarters:18409487
 Meet A Disney Pal near Showcase Plaza:18416876
 Norway Vikings:18441697
-Disney on Broadway Concert Series:18649509
-Matboukha Groove:18649512
-Epcot Living Statues:18654112
-Community Arts Showcase:18654114
-Disney Performing Arts Showcase:18660197
 The SpectacuLAB:18846430
-Groovin' Alps:18923661
-Epcot International Festival of the Arts Interactive Workshops:18944381
-Disney on Broadway's Greatest Hits:18961608
-Art Defying Gravity:18964697
+Durch & Durch:18976193
 British Revolution:80010849
 IllumiNations: Reflections of Earth:80010859
 Mariachi Cobre:80010864
 Matsuriza:80010865
 Oktoberfest Musikanten:80010869
+Sergio:80010873
 Voices of Liberty:80010879
 Indiana Jones Epic Stunt Spectacular!:136
 Meet Disney Junior Pals in the Animation Courtyard:224093
@@ -107,39 +102,36 @@ Meet Baloo and King Louie at Upcountry Landing:17633457
 Meet Daisy Duck on Discovery Island:17792674
 Meet Flik on Discovery Trails West:18050921
 Rivers of Light:18372009
-Discovery Island Carnivale:18375653
+Discovery Island Carnivale Welcomes Jose & Panchito from The Three Caballeros!:18375653
 Harambe Village Acrobats:18425797
 Kora Tinga Tinga:18435910
-Discovery Island Sunset Serenatas:18435912
 Karibu Sisters:18437453
 Tree of Life Awakenings:18447293
 Animal Encounters: It All Started with a Mouse:18572874
 Meet Doc McStuffins in Conservation Station:18588660
+Swotu Wayä Na'vi Drum Ceremony:18735574
 Meet Timon near Creature Comforts:18797696
 Animal Encounters: Up-Close Interactions:18869376
 "Minnie & Friends - Breakfast in the Park":401451
 Disneyland Band at Main Street, U.S.A.:401473
+Flag Retreat Ceremony:401487
 Meet Goofy, Pluto and Pals in Mickey's Toontown:401491
+Hook & Ladder Co.:401499
 Jambalaya Jazz:401501
-Main Street Piano Player:401517
 Meet Minnie at Her House in Mickey's Toontown:401519
 Meet Tinker Bell or a Fairy Friend at Pixie Hollow:401524
 Meet Mickey at His House in Mickey's Toontown:401526
-Pearly Band:401530
-Royal Street Bachelors:401542
-The Straw Hatters:401554
+"Remember...Dreams Come True" Fireworks Spectacular:401540
 Meet Winnie The Pooh and Friends in Critter Country:17631233
+The Bootstrappers:15751758
 The Laughing Stock Co.:16010318
 Storytelling at Royal Theatre:17346575
 Mickey and the Magical Map:17437680
-The Royal Swing Big Band Ball Featuring Swingtown:17470942
 Disneyland Band at Frontierland:18154861
 Silver Dollar Six:18161004
 Encounter Darth Vader at Star Wars Launch Bay:18237377
-The Royal Swing Big Band Ball:18644903
 Meet Disney Princesses at Royal Hall:18738682
 Fantasmic! Dining Packages:18764708
-Disneyland Band at Tomorrowland:18977136
 Meet Disney Pals on Buena Vista Street:401471
 World of Color:401479
 Turtle Talk with Crush:401560
@@ -157,12 +149,13 @@ Paradise Garden Bandstand:16642243
 Anna & Elsa's Royal Welcome:17563885
 Meet Oswald the Lucky Rabbit on Buena Vista Street:17883969
 Meet Olaf in Hollywood Land:17945275
+Meet Pluto at Grizzly Peak:18110588
 Frozen - Live at the Hyperion:18186543
-Mulan's Lunar New Year Procession:18373589
 Heroic Encounter: Spider-Man and Captain America:18407713
-Hurry Home - Lunar New Year Celebration:18614009
-Paradise Garden Bandstand Presents Dat Nguyen:18662098
+Jammin' Chefs:18685747
+Live Festival Music at Paradise Park:18685748
+Live Festival Music at Paradise Park - SMITH:18685774
 World of Color Dining Packages:18758724
 Frozen - Live at the Hyperion Dining Packages:18771248
-Heroic Encounter: Thor & Loki:18852322
-GuGu Drum Group:18954810
+Paradise Garden Bandstand Presents Adelaide Tropicál:18852702
+Heroic Encounter: Black Panther:18975052
