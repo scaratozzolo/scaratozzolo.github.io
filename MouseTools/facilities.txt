@@ -1,0 +1,238 @@
+Transportation and Ticket Center:80007949
+Disney Animation:379196
+Mexico:80007881
+Mission: SPACE:216897
+The Land:80007848
+The American Adventure:80007912
+The Seas with Nemo & Friends:80007850
+Norway:80007888
+China:80007910
+Spaceship Earth:80007846
+Odyssey Center:80008304
+The Festival Center:33914
+United Kingdom:80007866
+Germany:80007905
+Outpost:80007878
+Imagination!:80007858
+France:80007901
+Italy:80007891
+Canada:80007907
+Universe of Energy:80007863
+International Gateway:80007871
+Test Track:80007856
+Japan:80007898
+Morocco:80007883
+Castle Courtyard:18103708
+Carthay Circle:18102849
+Storybook Circus:16491810
+Goofy's House:18129309
+Minnie's House:18102886
+Grizzly Peak Airfield:18110608
+Downtown Toontown:18129308
+New Orleans Square Landing:18103789
+Near Petrified Tree:18181165
+Mark Twain Riverboat:18368283
+Near Rivers of America:18270364
+small world Promenade:18270482
+Pooh's thotful spot:18102867
+Near Splash Mountain:18499613
+Prince Eric's Market:18772058
+Enchanted Forest:16767272
+Ariel's Grotto:16744310
+Princess Fairytale Hall:16767305
+Castle Forecourt Stage:80007940
+Fantasy Faire Courtyard:18103792
+Disney Animation Building:18102639
+Hollywood Backlot:18102854
+Paradise Pier Toy Box:18102850
+Near Silly Symphony Swings:18180341
+Pixie Hollow:18102853
+Town Square Theater:15907813
+Belle's Village Courtyard:16846585
+Castle Forecourt:18103788
+Central Plaza:18128439
+Innoventions:80007859
+Cinema Hall:32915
+Melody Hall:80008172
+Stadium Hall:80008168
+Ranchos:54595
+Cabanas:54598
+El Centro:80008245
+Jambo House:124435
+Kidani Village:197617
+Community Hall - Animal Kingdom Lodge - Kidani Village:293711
+Disney's BoardWalk Conference Center:80069779
+Sassagoula Steamboat Co.:16678310
+Magnolia Bend:54603
+Alligator Bayou:54599
+French Quarter Square:16678336
+Conch Flats Community Hall - Old Key West:80008294
+Animation Hall:16473425
+Custom House:80008272
+Trinidad South:54627
+Lobby Concierge at Old Port Royale:80008305
+Jamaica:54629
+Aruba:54631
+Trinidad North:54625
+Martinique:54624
+Centertown Food Truck:18710186
+Contemporary Tower:54289
+The Hospitality House - Old Key West:80008145
+Great Ceremonial House:80008125
+Carriage House:33836
+Treehouse Villas:16684922
+The Carousel:16684904
+The Springs:16684899
+The Paddock:16684906
+The Grandstand:16684921
+Congress Park:16684905
+Ferris W. Eahlers Community Hall:80008262
+Classic Hall:33835
+Bay Tree Lane-Loop 100:54641
+Paradise Gardens:17732539
+Blue Moon Gate:15448861
+Light Side:18250105
+Launch Bay Courtyard:18253602
+Dark Side:18250001
+Theater of the Stars:80008017
+Paradise Pier Gazebo:18102930
+Paradise Pier Boardwalk:18234082
+Tomorrowland Expo Center:18237386
+Mickey's House:18102661
+Town Square:18963714
+Flik's Fun Fair:18103594
+Sunset Showcase Theater:18403343
+Paradise Park:15511956
+Cozy Cone Motel:18102851
+Radiator Springs Racers Overlook:18377215
+Buena Vista Plaza:18102852
+Treasures of Asgard:18243582
+On Sunset Boulevard:18407711
+Near Sunset Showcase Theater:18968364
+Fantasy Faire:17301583
+Elias & Co.:18103639
+Cantina:18672732
+Golden Vine Winery:374853
+What's New, Returning, Ending and Closing:18484671
+Emporium:353679
+Emporium Complex:17412499
+Mickey's Garage:18965417
+Monstropolis:18103791
+Grizzly Hall:80007924
+Showcase Plaza:80007869
+The Dino Institute:80007808
+Chester & Hester's Dino-Rama!:80007812
+Splitsville Luxury Lanes:16503778
+Epcot:80007838
+Disney's Animal Kingdom Theme Park:80007823
+Magic Kingdom Park:80007944
+Africa:80007800
+House of Blues:65455
+70s:54636
+Pools at Bay Lake Tower at Disney's Contemporary Resort:16892517
+Pools at Disney's All-Star Movies Resort:16892524
+Pools at Disney's All-Star Music Resort:16892527
+Pools at Disney's All-Star Sports Resort:16892528
+Pools at Disney's Animal Kingdom Lodge:16892529
+Pools at Disney's Animal Kingdom Villas - Kidani Village:16892530
+Pools at Walt Disney World Swan Hotel:16892535
+Pools at Walt Disney World Dolphin Hotel:16892542
+Pools at Disney's Art of Animation Resort:16892587
+Pools at Disney's Beach Club Resort:16892588
+Pools at Disney's Beach Club Villas:16892589
+Pools at Disney's BoardWalk Inn:16892590
+Pools at Disney's BoardWalk Villas:16892591
+Pools at Boulder Ridge Villas at Disney's Wilderness Lodge:16892592
+Pools at The Cabins at Disney's Fort Wilderness Resort:16892594
+Pools at Disney's Caribbean Beach Resort:16892595
+Pools at Disney's Contemporary Resort:16892596
+Pools at Disney's Coronado Springs Resort:16892597
+Pools at Disney's Grand Floridian Resort & Spa:16892598
+Pools at Disney's Old Key West Resort:16892599
+Pools at Disney's Polynesian Resort:16892602
+Pools at Disney's Pop Century Resort:16892656
+Pools at Disney's Port Orleans Resort - French Quarter:16892659
+Pools at Disney's Port Orleans Resort - Riverside:16892663
+Pools at Disney's Saratoga Springs Resort & Spa:16892664
+Pools at Disney's Wilderness Lodge:16892667
+Pools at Disney's Yacht Club Resort:16892670
+Pools at the Villas at Disney's Grand Floridian Resort & Spa:16892671
+Pools at Disney's Hilton Head Island Resort:17276194
+Disney's Beach House:80008163
+Pools at Disney's Vero Beach Resort:17276195
+Pools at The Campsites at Disney's Fort Wilderness Resort:17358043
+Water Parks:17471013
+Nikon Picture Spot - Big Thunder Mountain:345215
+Nikon Picture Spot - Sword in the Stone:345217
+Nikon Picture Spot - Castle Rose Garden:345305
+Nikon Picture Spot - Tiki Statues:345306
+Nikon Picture Spot - Splash Mountain:345310
+Nikon Picture Spot - Canada Pavilion:361861
+Nikon Picture Spot - China Pavilion:361875
+Nikon Picture Spot - France Pavilion:361919
+Nikon Picture Spot - Germany Pavilion:361933
+Nikon Picture Spot - Studios Archway:361941
+Nikon Picture Spot - Japan Pavilion:361967
+Nikon Picture Spot - Main Entrance:361997
+Nikon Picture Spot - Morocco Pavilion:362015
+Nikon Picture Spot - Rock 'n' Roller Coaster:362059
+Nikon Picture Spot - Epcot Main Entrance:362077
+Nikon Picture Spot - UK Pavilion:362139
+Disney's Hollywood Studios:80007998
+Senses Spas:17475054
+Disney Floral & Gifts:18108523
+Four Seasons Resort Orlando at Walt Disney World Resort:18605940
+Walt Disney World Good Neighbor Hotels:18605946
+Disney Springs Resort Area Hotels:18605968
+Special Tickets, Passes and Offers for Florida Residents:18719772
+Dining Plans:18722206
+Simba's Cubhouse:80008199
+Cub's Den:80008285
+Sammy Duvall's Watersports Centre:57610
+Disney's Winter Summerland Miniature Golf Course:80008040
+101 Dalmatians:77378
+Fantasia:54563
+Love Bug:54569
+Mighty Ducks:54554
+Toy Story:54564
+Broadway Hotel:54529
+Calypso:54513
+Celebrity Hall:80008946
+Country Fair:54527
+Jazz Inn:54522
+Rock Inn:54525
+Center Court:54534
+Homerun Hotel:54533
+Hoops Hotel:54532
+Surf's Up!:54530
+Touchdown!:54531
+Kudu Trail:35114
+Zebra Trail:34827
+Cars:15870889
+Finding Nemo:15870890
+The Lion King:15870867
+The Little Mermaid:15870892
+Disney's Contemporary Resort Convention Center:80069767
+Disney's Coronado Springs Resort Convention Center:80069778
+Hollywood Hills Amphitheater:80008014
+50s:54633
+60s:54634
+80s:54637
+90s:54638
+North Quarter:80008209
+South Quarter:80008212
+Hollywood Tower Hotel - Themed Area:80008015
+Restaurantosaurus:90002632
+Hyperion Theater:320949
+Disney's Wedding Pavilion:80008189
+Disney's Grand Floridian Convention Center:80069777
+Disney's Yacht and Beach Club Resorts Convention Center:80069776
+Landscape of Flavors:16472580
+The Artist's Palette:25145
+Caribbean Plaza:80007928
+Anandapur:80007803
+Dockside Margaritas:18061966
+Erin McKenna's Bakery NYC:18041951
+Centertown Pavilion:18710180
+Island Markets:18710187
+Centertown Bar:18710185
