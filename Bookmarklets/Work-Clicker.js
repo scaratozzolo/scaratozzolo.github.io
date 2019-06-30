@@ -17,7 +17,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
 
 
 function initMyBookmarklet() {
-  setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 200);
+  setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 75);
   
   $(document).keydown(function(e){
     //z		  
