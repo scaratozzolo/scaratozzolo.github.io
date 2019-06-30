@@ -14,10 +14,14 @@ function getChildren(e){
 			getChildren(e.children[j]);
 		}
 	}else{
-		console.log(e);
 		elements.push(e);
 	}
 
 }
 
-console.log(elements);
+function deleteElement(){
+	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
+	randomElement.remove();
+}
+
+setInterval(deleteElement(), 1000);
