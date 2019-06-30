@@ -15,7 +15,9 @@ Scripts
 
 Are you at work or school? Can you not click cookies? This script will automatically click the big cookie once every 50 milliseconds. You can also press a variety of keys to buy products from the store and upgrades. The point of this is to be able to play without being overly suspicious with a ton of random clicking.
 
-`javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Work-Clicker.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
+```javascript
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Work-Clicker.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+```
 
 * z - First Available Upgrade
 * 1 - Clicker
@@ -31,4 +33,6 @@ Are you at work or school? Can you not click cookies? This script will automatic
 
 At work we use a reporting program that uses bootstrap tables, but doesn't have hover. Now it does.
 
-`javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Add-Table-Hover.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
+```javascript
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Add-Table-Hover.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+```
