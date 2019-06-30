@@ -10,7 +10,7 @@ for(var i = 0; i < start.children.length; i++){
 
 function getChildren(e){
 	if(e.children != 0){
-		for(int j = 0; j < e.children.length; j++){
+		for(var j = 0; j < e.children.length; j++){
 			getChildren(e.children[j]);
 		}
 	}else{
