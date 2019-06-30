@@ -1,3 +1,10 @@
+var link = document.createElement('link');
+link.setAttribute('rel', 'stylesheet');
+link.setAttribute('type', 'text/css');
+link.setAttribute('href', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
+link.setAttribute('id', 'animatecsslink');
+document.getElementsByTagName('head')[0].appendChild(link);
+
 var start = document.getElementsByTagName("html")[0];
 var elements = [];
 var vanishSpeed = Math.floor(Math.random() * (10000 - 1000) ) + 1000;
@@ -22,8 +29,13 @@ function getChildren(e){
 
 function deleteElement(){
 	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
-	console.log(randomElement);
-	randomElement.remove();
+	if(randomElement.id != 'animatecsslink'){
+		randomElement.classList.add('animated', 'fadeOut');
+		console.log(randomElement);
+		setTimeout(randomElement.remove(), 1000);
+	}else{
+		deleteElement();
+	}
 }
 
 setInterval(function(){ deleteElement(); }, vanishSpeed);
