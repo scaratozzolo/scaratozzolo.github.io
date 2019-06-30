@@ -20,7 +20,9 @@ function initMyBookmarklet() {
   setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 50);
   
   $(document).keydown(function(e){
-	  alert(e.keyCode);
+    if(e.keyCode==49){
+	eventFire(document.getElementById('product0'), 'click');    
+    }
   });
 }
 
