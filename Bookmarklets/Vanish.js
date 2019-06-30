@@ -32,11 +32,11 @@ function deleteElement(){
 	if(randomElement.id != 'animatecsslink'){
 		randomElement.classList.add('animated', 'fadeOut');
 		console.log(randomElement);
-		setTimeout(true, 3000);
+		setTimeout(true, 1000);
 		randomElement.remove();
 	}else{
 		deleteElement();
 	}
 }
 
-setInterval(function(){ deleteElement(); }, 200);
+setInterval(function(){ deleteElement(); }, 3000);
