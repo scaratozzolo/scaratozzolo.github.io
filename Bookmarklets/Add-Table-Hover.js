@@ -1,7 +1,9 @@
+var v = "3.4.1";
+
 if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
     var done = false;
     var script = document.createElement("script");
-    script.src = "https://code.jquery.com/jquery-3.4.1.js";
+    script.src = "https://code.jquery.com/jquery-" + v + ".js";
     script.onload = script.onreadystatechange = function(){
         if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
             done = true;
