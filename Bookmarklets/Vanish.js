@@ -1,5 +1,6 @@
 var start = document.getElementsByTagName("html")[0];
 var elements = [];
+var vanishSpeed = Math.floor(Math.random() * (10000 - 1000) ) + 1000;
 
 for(var i = 0; i < start.children.length; i++){
 	
@@ -25,4 +26,4 @@ function deleteElement(){
 	randomElement.remove();
 }
 
-setInterval(function(){ deleteElement(); }, 1000);
+setInterval(function(){ deleteElement(); }, vanishSpeed);
