@@ -28,6 +28,7 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 * 5 - Factory
 * 6 - Bank
 * 7 - Temple
+* 8 - Wizard Tower
 
 *Note: All numbers are referring to the number keys at the top of the keyboard, not the numpad*
 
