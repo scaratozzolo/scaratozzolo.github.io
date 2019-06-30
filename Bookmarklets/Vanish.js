@@ -38,4 +38,4 @@ function deleteElement(){
 	}
 }
 
-setInterval(function(){ deleteElement(); }, vanishSpeed);
+setInterval(function(){ deleteElement(); }, 200);
