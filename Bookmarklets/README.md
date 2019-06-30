@@ -29,6 +29,6 @@ Are you at work? Can you not click the big cookie? This script will automaticall
 
 ## Add-Table-Hover.js
 
-At work we work with a reporting program that uses bootstrap tables, but doesn't have hover. Now it does.
+At work we use a reporting program that uses bootstrap tables, but doesn't have hover. Now it does.
 
 `javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Add-Table-Hover.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
