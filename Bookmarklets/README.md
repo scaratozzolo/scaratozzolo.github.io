@@ -26,6 +26,7 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 * 4 - Mine
 * 5 - Factory
 * 6 - Bank
+* 7 - Temple
 
 *Note: All numbers are referring to the number keys at the top of the keyboard, not the numpad*
 
