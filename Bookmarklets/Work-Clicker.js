@@ -20,8 +20,54 @@ function initMyBookmarklet() {
   setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 50);
   
   $(document).keydown(function(e){
+    //1
     if(e.keyCode==49){
-	eventFire(document.getElementById('product0'), 'click');    
+	eventFire(document.getElementById('product0'), 'click');
+    //2
+    }else if(e.keyCode==50){
+    	eventFire(document.getElementById('product1'), 'click');
+    //3
+    }else if(e.keyCode==51){
+    	eventFire(document.getElementById('product2'), 'click');
+    //4
+    }else if(e.keyCode==52){
+    	eventFire(document.getElementById('product3'), 'click');
+    //5
+    }else if(e.keyCode==53){
+    	eventFire(document.getElementById('product4'), 'click');
+    //6
+    }else if(e.keyCode==54){
+    	eventFire(document.getElementById('product5'), 'click');
+    //7
+    }else if(e.keyCode==55){
+    	eventFire(document.getElementById('product6'), 'click');
+    //8
+    }else if(e.keyCode==56){
+    	eventFire(document.getElementById('product7'), 'click');
+    //9
+    }else if(e.keyCode==57){
+    	eventFire(document.getElementById('product8'), 'click');
+    //0
+    }else if(e.keyCode==49){
+    	eventFire(document.getElementById('product9'), 'click');
+    //- and _
+    }else if(e.keyCode==189){
+    	eventFire(document.getElementById('product10'), 'click');
+    //+ and =
+    }else if(e.keyCode==187){
+    	eventFire(document.getElementById('product11'), 'click');
+    //q
+    }else if(e.keyCode==81){
+    	eventFire(document.getElementById('product12'), 'click');
+    //w
+    }else if(e.keyCode==87){
+    	eventFire(document.getElementById('product13'), 'click');
+    //e
+    }else if(e.keyCode==69){
+    	eventFire(document.getElementById('product14'), 'click');
+    //r
+    }else if(e.keyCode==82){
+    	eventFire(document.getElementById('product15'), 'click');
     }
   });
 }
