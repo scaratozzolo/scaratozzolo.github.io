@@ -1,4 +1,5 @@
 var v = "3.4.1";
+var clickspeed = 75;
 
 if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
     var done = false;
@@ -17,7 +18,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
 
 
 function initMyBookmarklet() {
-  setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 75);
+  setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
   
   $(document).keydown(function(e){
     //z		  
