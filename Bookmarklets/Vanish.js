@@ -21,6 +21,7 @@ function getChildren(e){
 
 function deleteElement(){
 	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
+	console.log(randomElement);
 	randomElement.remove();
 }
 
