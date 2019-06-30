@@ -1,11 +1,9 @@
 # How to use
 
 1. New bookmark
-2. Copy this code as the URL and replace "[FILE-NAME-HERE]" with appropriate file name
-
-`javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/[FILE-NAME-HERE].js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
-
+2. Copy the code and paste it as the bookmark URL
 3. Save
+4. When on a wepage, click the bookmark to activate
 
 Scripts
 
@@ -15,9 +13,18 @@ Scripts
 
 ## Work-Clicker.js
 
-Are you at work? Can you not click the big cookie? This script will automatically click the big cookie once every 50 milliseconds.
+Are you at work? Can you not click the big cookie? This script will automatically click the big cookie once every 50 milliseconds. You can also press a variety of keys to buy products from the store.
 
 `javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Work-Clicker.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
+
+* 1 - Clicker
+* 2 - Grandma
+* 3 - Farm
+* 4 - Mine
+* 5 - Factory
+* 6 - Bank
+
+*Note: All numbers are referring to the number keys at the top of the keyboard, not the numpad*
 
 ## Add-Table-Hover.js
 
