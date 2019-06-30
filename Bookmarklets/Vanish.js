@@ -30,9 +30,9 @@ function getChildren(e){
 function deleteElement(){
 	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
 	if(randomElement.id != 'animatecsslink'){
-		randomElement.classList.add('animated', 'fadeOut');
+		randomElement.classList.add('animated', 'fadeOut', 'slow');
 		console.log(randomElement);
-		setTimeout(function(){ randomElement.remove(); }, 1000);
+		setTimeout(function(){ randomElement.remove(); }, 2000);
 	}else{
 		deleteElement();
 	}
