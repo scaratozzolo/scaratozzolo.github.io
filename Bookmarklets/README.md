@@ -7,6 +7,11 @@
 
 3. Save
 
+Scripts
+
+* [Work-Clicker.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#work-clickerjs)
+* [Add-Table-Hover.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#add-table-hoverjs)
+
 
 ## Work-Clicker.js
 
