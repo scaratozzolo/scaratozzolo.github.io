@@ -9,7 +9,7 @@ for(var i = 0; i < start.children.length; i++){
 
 
 function getChildren(e){
-	if(e.children != 0){
+	if(e.children.length != 0){
 		for(var j = 0; j < e.children.length; j++){
 			getChildren(e.children[j]);
 		}
