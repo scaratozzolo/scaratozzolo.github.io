@@ -20,8 +20,11 @@ function initMyBookmarklet() {
   setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, 50);
   
   $(document).keydown(function(e){
+    //z		  
+    if(e.keyCode==90){
+       eventFire(document.getElementById('upgrade0'), 'click');
     //1
-    if(e.keyCode==49){
+    }else if(e.keyCode==49){
 	eventFire(document.getElementById('product0'), 'click');
     //2
     }else if(e.keyCode==50){
