@@ -17,6 +17,7 @@ Are you at work? Can you not click the big cookie? This script will automaticall
 
 `javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Work-Clicker.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();`
 
+* z - First Available Upgrade
 * 1 - Clicker
 * 2 - Grandma
 * 3 - Farm
