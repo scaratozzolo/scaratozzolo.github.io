@@ -24,4 +24,4 @@ function deleteElement(){
 	randomElement.remove();
 }
 
-setInterval(deleteElement(), 1000);
+setInterval(function(){ deleteElement(); }, 1000);
