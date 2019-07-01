@@ -86,10 +86,16 @@ function initMyBookmarklet() {
     //c
     }else if(e.keyCode==67){
     	eventFire(document.getElementById('bigCookie'), 'click');
+    }else if(e.keyCode==90 && e.ctrlKey && e.shiftKey){
+	    changeClickSpeed();
     }
   });
 }
 
+function changeClickSpeed(){
+	clickspeed = parseInt(prompt("New click speed in milliseconds, current is " + clickspeed + " milliseconds.");
+	interval = setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
+}
 
 function eventFire(el, etype){
   if (el.fireEvent) {
