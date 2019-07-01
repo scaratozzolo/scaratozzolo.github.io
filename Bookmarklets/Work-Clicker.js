@@ -94,7 +94,7 @@ function initMyBookmarklet() {
 }
 
 function changeClickSpeed(){
-	clickspeed = parseInt(prompt("New click speed in milliseconds, current is " + clickspeed + " milliseconds.");
+	clickspeed = parseInt(prompt("New click speed in milliseconds, current is " + clickspeed + " milliseconds."));
 	interval = setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
 }
 
