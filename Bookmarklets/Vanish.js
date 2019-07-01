@@ -30,7 +30,7 @@ function getChildren(e){
 }
 
 function deleteElement(){
-	if(elements.length != 0){
+	if(elements.length > 1){
 		var index = Math.floor(Math.random() * (elements.length) );
 		var randomElement = elements[index];
 		if(randomElement.id != 'animatecsslink'){
