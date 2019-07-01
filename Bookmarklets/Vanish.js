@@ -47,7 +47,7 @@ function deleteElement(){
 setInterval(function(){ deleteElement(); }, 200);
 
 document.onkeydown = function (e){
-	if(e.keyCode==82){
+	if(e.keyCode==82 && e.ctrlKey){
 		if(randomAnimation){
 			randomAnimation = false;
 		}else{	
