@@ -8,6 +8,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
 var start = document.getElementsByTagName("html")[0];
 var elements = [];
 var vanishSpeed = Math.floor(Math.random() * (10000 - 1000) ) + 1000;
+var animations = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'headShake', 'swing', 'tada', 'wobble', 'jello', 'bounceIn', 'bounceInDown', 'bounceInLeft', 'bounceInRight'];
+var randomAnimation = false;
 
 for(var i = 0; i < start.children.length; i++){
 	
@@ -30,7 +32,11 @@ function getChildren(e){
 function deleteElement(){
 	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
 	if(randomElement.id != 'animatecsslink'){
-		randomElement.classList.add('animated', 'fadeOut', 'slow');
+		if(!randomAnimation){
+			randomElement.classList.add('animated', 'fadeOut', 'slow');
+		}else{
+			randomElement.classList.add('animated', animations[Math.floor(Math.random() * (animations.length - 0) )], 'slow');
+		}
 		console.log(randomElement);
 		setTimeout(function(){ randomElement.remove(); }, 2500);
 	}else{
@@ -39,3 +45,13 @@ function deleteElement(){
 }
 
 setInterval(function(){ deleteElement(); }, 200);
+
+document.onkeydown = function (e){
+	if(e.keyCode==82){
+		if(randomAnimation){
+			randomAnimation = false;
+		}else{	
+			randomAnimation = true;
+		}
+	}
+}
