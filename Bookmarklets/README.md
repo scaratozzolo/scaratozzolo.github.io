@@ -55,6 +55,7 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 Can't work if there's nothing there.
 
 Press 'ctrl+shift+z' for random animations. Uses [Animate.css](https://daneden.github.io/animate.css/).
+Press 'ctrl+shift+x' to change the vanish speed. Default 200 milliseconds.
 
 ```javascript
 javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Vanish.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
