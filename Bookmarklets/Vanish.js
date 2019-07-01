@@ -49,8 +49,10 @@ setInterval(function(){ deleteElement(); }, 200);
 document.onkeydown = function (e){
 	if(e.keyCode==82 && e.ctrlKey){
 		if(randomAnimation){
+			console.log('Random Animations Off');
 			randomAnimation = false;
 		}else{	
+			console.log('Random Animations On');
 			randomAnimation = true;
 		}
 	}
