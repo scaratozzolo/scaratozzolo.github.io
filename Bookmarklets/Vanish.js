@@ -30,19 +30,23 @@ function getChildren(e){
 }
 
 function deleteElement(){
-	var index = Math.floor(Math.random() * (elements.length - 0) );
-	var randomElement = elements[index];
-	if(randomElement.id != 'animatecsslink'){
-		if(!randomAnimation){
-			randomElement.classList.add('animated', 'fadeOut', 'slow');
+	if(elements.length != 0){
+		var index = Math.floor(Math.random() * (elements.length) );
+		var randomElement = elements[index];
+		if(randomElement.id != 'animatecsslink'){
+			if(!randomAnimation){
+				randomElement.classList.add('animated', 'fadeOut', 'slow');
+			}else{
+				randomElement.classList.add('animated', animations[Math.floor(Math.random() * (animations.length - 0) )], 'slow');
+			}
+			console.log(randomElement);
+			setTimeout(function(){ randomElement.remove(); }, 2500);
+			elements.splice(index,1);
 		}else{
-			randomElement.classList.add('animated', animations[Math.floor(Math.random() * (animations.length - 0) )], 'slow');
+			deleteElement();
 		}
-		console.log(randomElement);
-		setTimeout(function(){ randomElement.remove(); }, 2500);
-		elements.splice(index,1);
 	}else{
-		deleteElement();
+		clearInterval(interval);
 	}
 }
 
