@@ -1,5 +1,7 @@
 var v = "3.4.1";
 var clickspeed = 75;
+var interval = null;
+var clicking = false;
 
 if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
     var done = false;
@@ -18,11 +20,20 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
 
 
 function initMyBookmarklet() {
-  setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
-  
+  interval = setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
+  clicking = true;
   $(document).keydown(function(e){
-    //z		  
-    if(e.keyCode==90){
+    //x
+    if(e.keyCode==88){
+	if(clicking){
+		clearInterval(interval);
+		clicking = false;
+	}else{
+		interval = setInterval(function(){ eventFire(document.getElementById('bigCookie'), 'click'); }, clickspeed);
+		clicking = true;
+	}
+    //z
+    }else if(e.keyCode==90){
        eventFire(document.getElementById('upgrade0'), 'click');
     //1
     }else if(e.keyCode==49){
