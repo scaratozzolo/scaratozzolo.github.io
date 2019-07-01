@@ -10,6 +10,7 @@ Scripts
 * [Work-Clicker.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#work-clickerjs)
 * [Add-Table-Hover.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#add-table-hoverjs)
 * [Vanish.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#vanishjs)
+* [Marqueeee.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#marqueeeejs)
 
 
 ## Work-Clicker.js
@@ -63,7 +64,7 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 
 ## Marqueeee.js
 
-Turn any element into a marquee. It should hopefully retain all origianl attributes.
+Turn any text into a marquee.
 
 ```javascript
 javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Marqueeee.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
