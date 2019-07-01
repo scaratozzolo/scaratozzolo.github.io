@@ -7,7 +7,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 
 var start = document.getElementsByTagName("html")[0];
 var elements = [];
-var vanishSpeed = Math.floor(Math.random() * (10000 - 1000) ) + 1000;
+var vanishSpeed = 200;
 var animations = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'headShake', 'swing', 'tada', 'wobble', 'jello', 'bounceOut', 'bounceOutDown', 'bounceOutLeft', 'bounceOutRight', 'bounceOutUp', 'fadeOut', 'fadeOutDown', 'fadeOutDownBig', 'fadeOutLeft', 'fadeOutLeftBig', 'fadeOutRight', 'fadeOutRightBig', 'fadeOutUp', 'fadeOutUpBig', 'lightSpeedOut', 'rotateOut', 'rotateOutDownLeft', 'rotateOutDownRight', 'rotateOutUpLeft', 'rotateOutUpRight', 'hinge', 'jackInTheBox', 'rollOut', 'zoomOut', 'zoomOutDown', 'zoonOutLeft', 'zoomOutRight', 'zoomOutUp', 'slideOutDown', 'slideOutLeft', 'slideOutRight', 'slideOutUp', 'heartBeat'];
 var randomAnimation = false;
 
@@ -30,7 +30,8 @@ function getChildren(e){
 }
 
 function deleteElement(){
-	var randomElement = elements[Math.floor(Math.random() * (elements.length - 0) )];
+	var index = Math.floor(Math.random() * (elements.length - 0) );
+	var randomElement = elements[index];
 	if(randomElement.id != 'animatecsslink'){
 		if(!randomAnimation){
 			randomElement.classList.add('animated', 'fadeOut', 'slow');
@@ -39,12 +40,13 @@ function deleteElement(){
 		}
 		console.log(randomElement);
 		setTimeout(function(){ randomElement.remove(); }, 2500);
+		elements.spice(index,1);
 	}else{
 		deleteElement();
 	}
 }
 
-setInterval(function(){ deleteElement(); }, 200);
+interval = setInterval(function(){ deleteElement(); }, vanishSpeed);
 
 document.onkeydown = function (e){
 	if(e.keyCode==90 && e.ctrlKey && e.shiftKey){
@@ -55,5 +57,9 @@ document.onkeydown = function (e){
 			console.log('Random Animations On');
 			randomAnimation = true;
 		}
+	}else if(e.keyCode==88 && e.ctrlKey && e.shiftKey){
+		clearInterval(interval);
+		vanishSpeed = parseInt(prompt("New vanish speed in milliseconds, current speed is " + vanishSpeed + " milliseconds."));
+		interval = setInterval(function(){ deleteElement(); }, vanishSpeed);
 	}
 }
