@@ -86,8 +86,8 @@ function initMyBookmarklet() {
     //c
     }else if(e.keyCode==67){
     	eventFire(document.getElementById('bigCookie'), 'click');
-    //ctrl+shift+x
-    }else if(e.keyCode==88 && e.ctrlKey && e.shiftKey){
+    //ctrl+shift+a
+    }else if(e.keyCode==65 && e.ctrlKey && e.shiftKey){
 	    changeClickSpeed();
     }
   });
