@@ -83,6 +83,9 @@ function initMyBookmarklet() {
     //r
     }else if(e.keyCode==82){
     	eventFire(document.getElementById('product15'), 'click');
+    //c
+    }else if(e.keyCode==67){
+    	eventFire(document.getElementById('bigCookie'), 'click');
     }
   });
 }
