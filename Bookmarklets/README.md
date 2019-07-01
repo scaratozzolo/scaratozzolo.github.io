@@ -60,3 +60,11 @@ Press 'ctrl+shift+x' to change the vanish speed. Default 200 milliseconds.
 ```javascript
 javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Vanish.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
 ```
+
+## Marqueeee.js
+
+Turn anything into a marquee. It should hopefully retain all origianl attributes.
+
+```javascript
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Marqueeee.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+```
