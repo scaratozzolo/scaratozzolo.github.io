@@ -20,7 +20,6 @@ Are you at work or school? Can you not click cookies? This script will automatic
 javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Work-Clicker.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
 ```
 
-* z - First Available Upgrade
 * 1 - Clicker
 * 2 - Grandma
 * 3 - Farm
@@ -29,6 +28,17 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 * 6 - Bank
 * 7 - Temple
 * 8 - Wizard Tower
+* 9 - Shipment
+* 0 - Alchemy Lab
+* -/_ - Portal
+* +/= - Time Machine
+* q - Antimatter Condenser
+* w - Prism
+* e - Chancemaker
+* r - Fractal Engine
+* z - First Available Upgrade
+* x - Pause/Start Big Cookie Autoclicking
+* c - Manual Big Cookie Clicking
 
 *Note: All numbers are referring to the number keys at the top of the keyboard, not the numpad*
 
