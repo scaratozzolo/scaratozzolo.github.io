@@ -40,7 +40,7 @@ function deleteElement(){
 		}
 		console.log(randomElement);
 		setTimeout(function(){ randomElement.remove(); }, 2500);
-		elements.spice(index,1);
+		elements.splice(index,1);
 	}else{
 		deleteElement();
 	}
