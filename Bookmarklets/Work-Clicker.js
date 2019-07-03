@@ -1,4 +1,4 @@
-console.log("Work-Clicker.js v0.1.2");
+console.log("Work-Clicker.js v0.1.3");
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
@@ -24,7 +24,9 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
 
 function initMyBookmarklet() {
   interval = setInterval(function(){ autoClick(); }, clickspeed);
-  clicking, bigCookieClicking, shimmerClicking = true;
+  clicking = true;
+  bigCookieClicking = true;
+  shimmerClicking = true;
   $(document).keydown(function(e){
     //x turn on/off auto click
     if(e.keyCode==88){
