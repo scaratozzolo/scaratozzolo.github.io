@@ -1,4 +1,4 @@
-var version = "0.3.0-1";
+var version = "0.3.0-2";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -143,11 +143,35 @@ function CustomMenu(){
 
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
-    listingdiv.appendChild(Game.WriteButton('autoClick', 'autoClickButton', 'Autoclick ON', 'Autoclick OFF', 'alert("test");'));
 
+    optionButton(listingdiv, 'autoclick', 'alert("test");', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
 
-    sub.appendChild();
+    sub.appendChild(listingdiv);
 	}
+}
+
+function optionButton(parent, id, callback, on, off, label, invert){
+
+  var a = document.createElement('a');
+  a.id = id;
+  a.onclick = callback;
+  if(!invert){
+    a.className = 'option';
+    a.textContent = on;
+  }else{
+    a.className = 'option off';
+    a.textContent = off;
+  }
+
+  var label = document.createElement('label');
+	label.textContent = label;
+
+  var linebreak = document.createElement('br')
+
+  parent.appendChild(a);
+  parent.appendChild(label);
+  parent.appendChild(linebreak);
+
 }
 
 function eventFire(el, etype){
