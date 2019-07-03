@@ -144,7 +144,7 @@ function CustomMenu(){
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclick', 'alert("test");', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
+    optionButton(listingdiv, 'autoclick', 'function() { alert("test"); }', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
 
     sub.appendChild(listingdiv);
 	}
