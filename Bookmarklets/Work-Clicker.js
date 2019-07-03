@@ -1,5 +1,7 @@
-var version = "0.2.4";
+var version = "0.3.0";
 console.log("Work-Clicker.js v" + version);
+var WC = {};
+
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
@@ -120,8 +122,33 @@ function initMyBookmarklet() {
       }
     }
   });
+
+  WC.UpdateMenu = Game.UpdateMenu;
+  Game.UpdateMenu = function(){
+    WC.UpdateMenu();
+    CustomMenu();
+  }
+
 }
 
+function CustomMenu(){
+	var titlediv = document.createElement('div');
+	titlediv.className = 'title';
+	titlediv.textContent = 'Work-Clicker.js';
+
+
+	if (Game.onMenu == 'prefs') {
+		var sub = document.getElementsByClassName('subsection')[0];
+    sub.appendChild(titlediv);
+
+    var listingdiv = document.createElement('div');
+    listingdiv.className = 'listing';
+    listingdiv.appendChild(Game.WriteButton('autoClick', 'autoClickButton', 'Autoclick ON', 'Autoclick OFF', 'alert("test");'));
+
+
+    sub.appendChild();
+	}
+}
 
 function eventFire(el, etype){
   if (el.fireEvent) {
@@ -134,7 +161,6 @@ function eventFire(el, etype){
 }
 
 function autoClick() {
-
   if (bigCookieClicking){
     eventFire(document.getElementById('bigCookie'), 'click');
   }
@@ -144,5 +170,4 @@ function autoClick() {
       eventFire(document.getElementsByClassName('shimmer')[0], 'click');
     }
   }
-
 }
