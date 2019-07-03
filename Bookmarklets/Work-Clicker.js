@@ -1,4 +1,4 @@
-var version = "0.3.1";
+var version = "0.3.4";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -38,7 +38,13 @@ function initMyBookmarklet() {
   $(document).keydown(function(e){
     //x turn on/off auto click
     if(e.keyCode==88){
-    	autoClickToggle();
+    	if(clicking){
+        clearInterval(interval);
+        clicking = false
+      }else{
+        interval = setInterval(function(){ autoClick(); }, clickspeed);
+        clicking = true;
+      }
     //z
     }else if(e.keyCode==90){
       if(document.getElementById('upgrades').children.length != 0){
@@ -130,9 +136,9 @@ function CustomMenu(){
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclickButton', 'WCToggle("autoclickButton", "Autoclicking", "clicking", clicking)', 'Autoclicking', 'Turn on/off all autoclicking', false);
-    optionButton(listingdiv, 'bigCookieButton', 'WCToggle("bigCookieButton", "Big Cookie Autoclicking", "bigCookieClicking", bigCookieClicking)', 'Auto Big Cookie Clicking', 'Turn on/off big cookie autoclicking', false);
-    optionButton(listingdiv, 'shimmerButton', 'WCToggle("shimmerButton", "Shimmer Autoclicking", "shimmerClicking", shimmerClicking)', 'Auto Shimmer Clicking', 'Turn on/off shimmer autoclicking', false);
+    optionButton(listingdiv, 'autoclickButton', 'WCAutoToggle();', 'Autoclicking', 'Turn on/off all autoclicking', false);
+    optionButton(listingdiv, 'bigCookieButton', 'WCBigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', false);
+    optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer autoclicking', false);
 
     sub.appendChild(listingdiv);
 	}
@@ -162,32 +168,52 @@ function optionButton(parent, id, callback, button, labelText, invert){
 
 }
 
-function WCToggle(id, button, state, tmp){
-  var el = document.getElementById(id);
+function WCAutoToggle(){
+  var el = document.getElementById('autoclickButton');
 
-  if(tmp){
-    el.textContent = button + " OFF";
-    el.className = 'option off';
-
-  }else{
-    el.textContent = button + " ON";
-    el.className = 'option';
-  }
-
-  if(state == 'clicking') autoClickToggle();
-  if(state == 'bigCookieClicking') bigCookieClicking = !bigCookieClicking;
-  if(state == 'shimmerClicking') shimmerClicking = !shimmerClicking;
-}
-
-function autoClickToggle(){
   if(clicking){
+    el.textContent = "Autoclicking OFF";
+    el.className = 'option off';
     clearInterval(interval);
-    clicking = false;
+    clicking = false
+
   }else{
+    el.textContent = "Autoclicking ON";
+    el.className = 'option';
     interval = setInterval(function(){ autoClick(); }, clickspeed);
     clicking = true;
   }
+
 }
+
+function WCBigCookieToggle(){
+  var el = document.getElementById('bigCookieButton');
+  if(bigCookieClicking){
+    el.textContent = "Big Cookie Autoclicking OFF";
+    el.className = 'option off';
+    bigCookieClicking = false
+
+  }else{
+    el.textContent = "Big Cookie Autoclicking ON";
+    el.className = 'option';
+    bigCookieClicking = true;
+  }
+}
+
+function WCShimmerToggle(){
+  var el = document.getElementById('shimmerButton');
+  if(shimmerClicking){
+    el.textContent = "Shimmer Autoclicking OFF";
+    el.className = 'option off';
+    shimmerClicking = false
+
+  }else{
+    el.textContent = "Shimmer Autoclicking ON";
+    el.className = 'option';
+    shimmerClicking = true;
+  }
+}
+
 
 function eventFire(el, etype){
   if (el.fireEvent) {
