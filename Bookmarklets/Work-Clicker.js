@@ -1,8 +1,8 @@
-console.log("Work-Clicker.js v0.1");
+console.log("Work-Clicker.js v0.1.1");
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
-var clicking - false;
+var clicking = false;
 var bigCookieClicking = false;
 var shimmerClicking = false;
 
