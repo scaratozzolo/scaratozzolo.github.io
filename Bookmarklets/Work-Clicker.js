@@ -1,4 +1,4 @@
-console.log("Work-Clicker.js v0.1.3");
+console.log("Work-Clicker.js v0.2.0");
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
@@ -88,9 +88,28 @@ function initMyBookmarklet() {
     //r
     }else if(e.keyCode==82){
     	 eventFire(document.getElementById('product15'), 'click');
-    //c
+    //c maunal click big cookie
     }else if(e.keyCode==67){
     	 eventFire(document.getElementById('bigCookie'), 'click');
+    //v manual click shimmers
+    }else if(e.keyCode==86){
+      if(document.getElementById('shimmers').innerHTML != ""){
+        eventFire(document.getElementsByClassName('shimmer')[0], 'click');
+      }
+    //b turn on/off auto big cookie clicking
+    }else if(e.keyCode==66){
+      if(bigCookieClicking){
+        bigCookieClicking = false;
+      }else{
+        bigCookieClicking = true;
+      }
+    //n turn on/off auto shimmer clicking
+    }else if(e.keyCode==78){
+      if(shimmerClicking){
+        shimmerClicking = false;
+      }else{
+        shimmerClicking = true;
+      }
     }
   });
 }
