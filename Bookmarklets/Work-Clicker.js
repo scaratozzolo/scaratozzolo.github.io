@@ -1,4 +1,4 @@
-var version = "0.3.0";
+var version = "0.3.1";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -102,10 +102,10 @@ function initMyBookmarklet() {
       }
     //b turn on/off auto big cookie clicking
     }else if(e.keyCode==66){
-      !bigCookieClicking;
+      bigCookieClicking = !bigCookieClicking;
     //n turn on/off auto shimmer clicking
     }else if(e.keyCode==78){
-      !shimmerClicking;
+      shimmerClicking = !shimmerClicking;
     }
   });
 
@@ -175,8 +175,8 @@ function WCToggle(id, button, state, tmp){
   }
 
   if(state == 'clicking') autoClickToggle();
-  if(state == 'bigCookieClicking') !bigCookieClicking;
-  if(state == 'shimmerClicking') !shimmerClicking;
+  if(state == 'bigCookieClicking') bigCookieClicking = !bigCookieClicking;
+  if(state == 'shimmerClicking') shimmerClicking = !shimmerClicking;
 }
 
 function autoClickToggle(){
