@@ -1,4 +1,4 @@
-var version = "0.3.0-2";
+var version = "0.3.0-3";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -144,7 +144,7 @@ function CustomMenu(){
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclick', 'function() { alert("test"); }', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
+    optionButton(listingdiv, 'autoclick', 'alert("test");', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
 
     sub.appendChild(listingdiv);
 	}
@@ -154,7 +154,7 @@ function optionButton(parent, id, callback, on, off, label, invert){
 
   var a = document.createElement('a');
   a.id = id;
-  a.onclick = callback;
+  a.onclick = function(){callback};
   if(!invert){
     a.className = 'option';
     a.textContent = on;
