@@ -1,10 +1,15 @@
-console.log("Work-Clicker.js v0.2.3");
+var version = "0.2.4";
+console.log("Work-Clicker.js v" + version);
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
 var clicking = false;
 var bigCookieClicking = false;
 var shimmerClicking = false;
+
+var customTickers=["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + version];
+customTickersFunction=function() { return customTickers; }
+Game.customTickers.push(customTickersFunction);
 
 if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
     var done = false;
@@ -23,6 +28,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
 
 
 function initMyBookmarklet() {
+
   interval = setInterval(function(){ autoClick(); }, clickspeed);
   clicking = true;
   bigCookieClicking = true;
