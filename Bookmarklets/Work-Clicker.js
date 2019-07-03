@@ -1,4 +1,4 @@
-var version = "0.3.0";
+var version = "0.3.0-1";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
