@@ -1,14 +1,15 @@
-var v = "3.4.1";
+console.log("Work-Clicker.js v0.1");
+var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
 var clicking - false;
 var bigCookieClicking = false;
 var shimmerClicking = false;
 
-if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
+if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
     var done = false;
     var script = document.createElement("script");
-    script.src = "https://code.jquery.com/jquery-" + v + ".js";
+    script.src = "https://code.jquery.com/jquery-" + jqueryv + ".js";
     script.onload = script.onreadystatechange = function(){
         if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
             done = true;
