@@ -1,4 +1,4 @@
-var version = "0.3.0-7";
+var version = "0.3.0-8";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -38,13 +38,7 @@ function initMyBookmarklet() {
   $(document).keydown(function(e){
     //x turn on/off auto click
     if(e.keyCode==88){
-    	if(clicking){
-    		clearInterval(interval);
-    		clicking = false;
-    	}else{
-    		interval = setInterval(function(){ autoClick(); }, clickspeed);
-    		clicking = true;
-    	}
+    	autoClickToggle();
     //z
     }else if(e.keyCode==90){
       if(document.getElementById('upgrades').children.length != 0){
@@ -108,18 +102,10 @@ function initMyBookmarklet() {
       }
     //b turn on/off auto big cookie clicking
     }else if(e.keyCode==66){
-      if(bigCookieClicking){
-        bigCookieClicking = false;
-      }else{
-        bigCookieClicking = true;
-      }
+      !bigCookieClicking;
     //n turn on/off auto shimmer clicking
     }else if(e.keyCode==78){
-      if(shimmerClicking){
-        shimmerClicking = false;
-      }else{
-        shimmerClicking = true;
-      }
+      !shimmerClicking;
     }
   });
 
@@ -184,12 +170,21 @@ function WCToggle(id, button, state, tmp){
   }else{
     el.textContent = button + " ON";
     el.className = 'option';
-
   }
 
-  if(state == 'clicking') !clicking;
+  if(state == 'clicking') autoClickToggle();
   if(state == 'bigCookieClicking') !bigCookieClicking;
   if(state == 'shimmerClicking') !shimmerClicking;
+}
+
+function autoClickToggle(){
+  if(clicking){
+    clearInterval(interval);
+    clicking = false;
+  }else{
+    interval = setInterval(function(){ autoClick(); }, clickspeed);
+    clicking = true;
+  }
 }
 
 function eventFire(el, etype){
