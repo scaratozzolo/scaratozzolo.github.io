@@ -1,4 +1,4 @@
-var version = "0.3.0-4";
+var version = "0.3.0-5";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -154,7 +154,7 @@ function optionButton(parent, id, callback, on, off, label, invert){
 
   var a = document.createElement('a');
   a.id = id;
-  a.onclick = 'function(){alert("test");}';
+  a.setAttribute('onclick', 'alert("test");');
   if(!invert){
     a.className = 'option';
     a.textContent = on;
