@@ -1,4 +1,4 @@
-console.log("Work-Clicker.js v0.1.1");
+console.log("Work-Clicker.js v0.1.2");
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
@@ -111,7 +111,7 @@ function autoClick() {
   }
 
   if(shimmerClicking){
-    if(document.getElementById('shimmer').innerHTML != ""){
+    if(document.getElementById('shimmers').innerHTML != ""){
       eventFire(document.getElementsByClassName('shimmer')[0], 'click');
     }
   }
