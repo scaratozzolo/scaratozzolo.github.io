@@ -1,4 +1,4 @@
-var version = "0.3.0-6";
+var version = "0.3.0-7";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -144,23 +144,23 @@ function CustomMenu(){
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclick', 'alert("test");', 'Autoclicking ON', 'Autoclicking OFF', 'Turn on/off all autoclicking', false);
+    optionButton(listingdiv, 'autoclickButton', 'WCToggle("autoclickButton", "Autoclicking", "clicking", clicking)', 'Autoclicking', 'Turn on/off all autoclicking', false);
 
     sub.appendChild(listingdiv);
 	}
 }
 
-function optionButton(parent, id, callback, on, off, label, invert){
+function optionButton(parent, id, callback, button, label, invert){
 
   var a = document.createElement('a');
   a.id = id;
   a.setAttribute('onclick', callback);
   if(!invert){
     a.className = 'option';
-    a.textContent = on;
+    a.textContent = button + " ON";
   }else{
     a.className = 'option off';
-    a.textContent = off;
+    a.textContent = button + " OFF";
   }
 
   var label = document.createElement('label');
@@ -172,6 +172,24 @@ function optionButton(parent, id, callback, on, off, label, invert){
   parent.appendChild(label);
   parent.appendChild(linebreak);
 
+}
+
+function WCToggle(id, button, state, tmp){
+  var el = document.getElementById(id);
+
+  if(tmp){
+    el.textContent = button + " OFF";
+    el.className = 'option off';
+
+  }else{
+    el.textContent = button + " ON";
+    el.className = 'option';
+
+  }
+
+  if(state == 'clicking') !clicking;
+  if(state == 'bigCookieClicking') !bigCookieClicking;
+  if(state == 'shimmerClicking') !shimmerClicking;
 }
 
 function eventFire(el, etype){
