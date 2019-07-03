@@ -1,4 +1,4 @@
-console.log("Work-Clicker.js v0.2.2");
+console.log("Work-Clicker.js v0.2.3");
 var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
@@ -39,7 +39,9 @@ function initMyBookmarklet() {
     	}
     //z
     }else if(e.keyCode==90){
-       eventFire(document.getElementById('upgrades').children[0], 'click');
+      if(document.getElementById('upgrades').children.length != 0){
+          eventFire(document.getElementById('upgrades').children[0], 'click');
+      }
     //1
     }else if(e.keyCode==49){
 	     eventFire(document.getElementById('product0'), 'click');
