@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var version = "0.3.4";
+=======
+var version = "0.3.3";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -172,7 +176,11 @@ function WCAutoToggle(){
   var el = document.getElementById('autoclickButton');
 
   if(clicking){
+<<<<<<< HEAD
     el.textContent = "Autoclicking OFF";
+=======
+    el.textContent = button + " OFF";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
     el.className = 'option off';
     clearInterval(interval);
     clicking = false
@@ -189,12 +197,20 @@ function WCAutoToggle(){
 function WCBigCookieToggle(){
   var el = document.getElementById('bigCookieButton');
   if(bigCookieClicking){
+<<<<<<< HEAD
     el.textContent = "Big Cookie Autoclicking OFF";
+=======
+    el.textContent = button + " OFF";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
     el.className = 'option off';
     bigCookieClicking = false
 
   }else{
+<<<<<<< HEAD
     el.textContent = "Big Cookie Autoclicking ON";
+=======
+    el.textContent = button + " ON";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
     el.className = 'option';
     bigCookieClicking = true;
   }
@@ -203,12 +219,20 @@ function WCBigCookieToggle(){
 function WCShimmerToggle(){
   var el = document.getElementById('shimmerButton');
   if(shimmerClicking){
+<<<<<<< HEAD
     el.textContent = "Shimmer Autoclicking OFF";
+=======
+    el.textContent = button + " OFF";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
     el.className = 'option off';
     shimmerClicking = false
 
   }else{
+<<<<<<< HEAD
     el.textContent = "Shimmer Autoclicking ON";
+=======
+    el.textContent = button + " ON";
+>>>>>>> 7571fcd22d8228ef57e6a47e0f8f074677eddb49
     el.className = 'option';
     shimmerClicking = true;
   }
