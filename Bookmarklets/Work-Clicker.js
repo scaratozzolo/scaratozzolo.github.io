@@ -39,7 +39,7 @@ function initMyBookmarklet() {
     	}
     //z
     }else if(e.keyCode==90){
-       eventFire(document.getElementById('upgrade0'), 'click');
+       eventFire(document.getElementById('upgrades').children[0], 'click');
     //1
     }else if(e.keyCode==49){
 	     eventFire(document.getElementById('product0'), 'click');
