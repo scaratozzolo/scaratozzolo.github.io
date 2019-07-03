@@ -38,8 +38,11 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 * e - Chancemaker
 * r - Fractal Engine
 * z - First Available Upgrade
-* x - Pause/Start Big Cookie Autoclicking
+* x - Pause/Start Autoclicking
 * c - Manual Big Cookie Clicking
+* v - Manual Shimmer Clicking
+* b - Turn on/off Auto Big Cookie Clicking
+* n - Turn on/off Auto Shimmer Clicking
 
 *Note: All numbers are referring to the number keys at the top of the keyboard, not the numpad*
 
