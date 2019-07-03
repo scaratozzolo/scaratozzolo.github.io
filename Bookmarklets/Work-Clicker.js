@@ -1,4 +1,4 @@
-var version = "0.3.0-8";
+var version = "0.3.0";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -131,12 +131,14 @@ function CustomMenu(){
     listingdiv.className = 'listing';
 
     optionButton(listingdiv, 'autoclickButton', 'WCToggle("autoclickButton", "Autoclicking", "clicking", clicking)', 'Autoclicking', 'Turn on/off all autoclicking', false);
+    optionButton(listingdiv, 'bigCookieButton', 'WCToggle("bigCookieButton", "Big Cookie Autoclicking", "bigCookieClicking", bigCookieClicking)', 'Auto Big Cookie Clicking', 'Turn on/off big cookie autoclicking', false);
+    optionButton(listingdiv, 'shimmerButton', 'WCToggle("shimmerButton", "Shimmer Autoclicking", "shimmerClicking", shimmerClicking)', 'Auto Shimmer Clicking', 'Turn on/off shimmer autoclicking', false);
 
     sub.appendChild(listingdiv);
 	}
 }
 
-function optionButton(parent, id, callback, button, label, invert){
+function optionButton(parent, id, callback, button, labelText, invert){
 
   var a = document.createElement('a');
   a.id = id;
@@ -150,7 +152,7 @@ function optionButton(parent, id, callback, button, label, invert){
   }
 
   var label = document.createElement('label');
-	label.textContent = label;
+	label.textContent = labelText;
 
   var linebreak = document.createElement('br')
 
