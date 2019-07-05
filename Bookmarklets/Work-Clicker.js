@@ -1,4 +1,4 @@
-var version = "0.4.3";
+var version = "0.4.4";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -106,6 +106,7 @@ function initMyBookmarklet() {
   WC.UpdateMenu = Game.UpdateMenu;
   Game.UpdateMenu = function(){
     WC.UpdateMenu();
+    document.getElementById('menu').querySelector('.subsection').children[7].remove();
     CustomMenu();
   }
 
