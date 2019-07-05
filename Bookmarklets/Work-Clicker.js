@@ -1,4 +1,4 @@
-var version = "0.4.2";
+var version = "0.4.3";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -242,10 +242,11 @@ function autoClick() {
   if(productClicking){
 
     let products = document.getElementById('products').querySelectorAll('.unlocked.enabled');
-    if(prodcuts.length != 0 && products[products.length-1].id > highestProduct){
-      highestProduct = products[products.length-1].id
+    if(products.length != 0){
+      if(products[products.length-1].id > highestProduct){
+        highestProduct = products[products.length-1].id
+      }
+      eventFire(document.getElementById(highestProduct), 'click');
     }
-    eventFire(document.getElementById(highestProduct), 'click');
-
   }
 }
