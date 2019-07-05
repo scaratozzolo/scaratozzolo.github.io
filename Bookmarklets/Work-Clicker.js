@@ -127,7 +127,7 @@ function CustomMenu(){
     optionButton(listingdiv, 'autoclickButton', 'WCAutoToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !clicking);
     optionButton(listingdiv, 'bigCookieButton', 'WCBigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !bigCookieClicking);
     optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer autoclicking', !shimmerClicking);
-    optionButton(listingdiv, 'productClickButton', 'WCProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product', !productClicking);
+    optionButton(listingdiv, 'productClickButton', 'WCProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product (kinda buggy)', !productClicking);
 
     sub.appendChild(listingdiv);
 	}
