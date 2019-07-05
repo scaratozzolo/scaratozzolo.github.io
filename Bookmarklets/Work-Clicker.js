@@ -1,4 +1,4 @@
-var version = "0.4.0";
+var version = "0.4.1";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -101,7 +101,7 @@ function initMyBookmarklet() {
     }else if(e.keyCode==78){
       shimmerClicking = !shimmerClicking;
     }
-  });
+  }
 
   WC.UpdateMenu = Game.UpdateMenu;
   Game.UpdateMenu = function(){
