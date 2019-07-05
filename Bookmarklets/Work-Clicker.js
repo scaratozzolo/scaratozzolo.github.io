@@ -1,33 +1,20 @@
-var version = "0.3.5";
+var version = "0.4.0";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
-var jqueryv = "3.4.1";
 var clickspeed = 75;
 var interval = null;
 var clicking = false;
 var bigCookieClicking = false;
 var shimmerClicking = false;
+var productClicking = false;
+var highestProduct = "";
 
 var customTickers=["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + version];
 customTickersFunction=function() { return customTickers; }
 Game.customTickers.push(customTickersFunction);
 
-if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
-    var done = false;
-    var script = document.createElement("script");
-    script.src = "https://code.jquery.com/jquery-" + jqueryv + ".js";
-    script.onload = script.onreadystatechange = function(){
-        if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
-            done = true;
-            initMyBookmarklet();
-        }
-    };
-    document.getElementsByTagName("head")[0].appendChild(script);
-} else {
-    initMyBookmarklet();
-}
-
+initMyBookmarklet();
 
 function initMyBookmarklet() {
 
@@ -35,7 +22,8 @@ function initMyBookmarklet() {
   clicking = true;
   bigCookieClicking = true;
   shimmerClicking = true;
-  $(document).keydown(function(e){
+  productClicking = true;
+  document.onkeydown = function(e){
     //x turn on/off auto click
     if(e.keyCode==88){
     	if(clicking){
@@ -139,6 +127,7 @@ function CustomMenu(){
     optionButton(listingdiv, 'autoclickButton', 'WCAutoToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !clicking);
     optionButton(listingdiv, 'bigCookieButton', 'WCBigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !bigCookieClicking);
     optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer autoclicking', !shimmerClicking);
+    optionButton(listingdiv, 'productClickButton', 'WCProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product', !productClicking);
 
     sub.appendChild(listingdiv);
 	}
@@ -214,6 +203,20 @@ function WCShimmerToggle(){
   }
 }
 
+function WCProductToggle(){
+  var el = document.getElementById('productClickButton');
+  if(productClicking){
+    el.textContent = "Product Autoclicking OFF";
+    el.className = 'option off';
+    productClicking = false
+
+  }else{
+    el.textContent = "Product Autoclicking ON";
+    el.className = 'option';
+    productClicking = true;
+  }
+}
+
 
 function eventFire(el, etype){
   if (el.fireEvent) {
@@ -234,5 +237,15 @@ function autoClick() {
     if(document.getElementById('shimmers').innerHTML != ""){
       eventFire(document.getElementsByClassName('shimmer')[0], 'click');
     }
+  }
+
+  if(productClicking){
+
+    let products = document.getElementById('products').querySelectorAll('.unlocked.enabled');
+    if(products[products.length-1].id > highestProduct){
+      highestProduct = products[products.length-1].id
+    }
+    eventFire(document.getElementById(highestProduct), 'click');
+
   }
 }
