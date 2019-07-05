@@ -1,4 +1,4 @@
-var version = "0.4.4";
+var version = "0.4.5";
 console.log("Work-Clicker.js v" + version);
 var WC = {};
 
@@ -127,7 +127,7 @@ function CustomMenu(){
 
     optionButton(listingdiv, 'autoclickButton', 'WCAutoToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !clicking);
     optionButton(listingdiv, 'bigCookieButton', 'WCBigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !bigCookieClicking);
-    optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer autoclicking', !shimmerClicking);
+    optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !shimmerClicking);
     optionButton(listingdiv, 'productClickButton', 'WCProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product (kinda buggy)', !productClicking);
 
     sub.appendChild(listingdiv);
@@ -242,7 +242,7 @@ function autoClick() {
 
   if(productClicking){
 
-    let products = document.getElementById('products').querySelectorAll('.unlocked.enabled');
+    let products = document.getElementById('products').querySelectorAll('.unlocked');
     if(products.length != 0){
       if(products[products.length-1].id > highestProduct){
         highestProduct = products[products.length-1].id
