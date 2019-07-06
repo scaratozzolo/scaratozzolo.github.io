@@ -54,9 +54,7 @@ WC.Main = function() {
   WC.Config.ProductClicking = true;
   document.onkeydown = function(e){
     for(let item of Object.keys(WC.Config.KeyConfig)){
-      console.log('test');
-      if(e.keyCode == item.keyCode){
-        console.log('test2');
+      if(e.keyCode == WC.Config.KeyConfig[item].keyCode){
         item.func();
       }
     }
