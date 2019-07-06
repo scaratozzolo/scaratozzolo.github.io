@@ -42,7 +42,7 @@ WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies
 WC.Custom.customTickersFunction = function() { return WC.Custom.customTickers; }
 Game.customTickers.push(WC.Custom.customTickersFunction);
 
-WC.Main();
+
 
 
 WC.Main = function() {
@@ -209,3 +209,5 @@ WC.AutoClick = function() {
     }
   }
 }
+
+WC.Main();
