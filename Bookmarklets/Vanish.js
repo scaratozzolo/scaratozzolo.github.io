@@ -5,6 +5,21 @@ link.setAttribute('href', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.
 link.setAttribute('id', 'animatecsslink');
 document.getElementsByTagName('head')[0].appendChild(link);
 
+var jqueryv = "3.4.1";
+
+if (window.jQuery === undefined || window.jQuery.fn.jquery < jqueryv) {
+    var done = false;
+    var script = document.createElement("script");
+    script.src = "https://code.jquery.com/jquery-" + jqueryv + ".js";
+    script.onload = script.onreadystatechange = function(){
+        if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+            done = true;
+            initMyBookmarklet();
+        }
+    };
+    document.getElementsByTagName("head")[0].appendChild(script);
+}
+
 var start = document.getElementsByTagName("html")[0];
 var elements = [];
 var vanishSpeed = 200;
