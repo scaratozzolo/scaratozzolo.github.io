@@ -83,10 +83,10 @@ WC.CustomMenu = function(){
     var listingdiv = document.createElement('div');
     listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclickButton', 'WCAutoToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !WC.Config.Clicking);
-    optionButton(listingdiv, 'bigCookieButton', 'WCBigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !WC.Config.BigCookieClicking);
-    optionButton(listingdiv, 'shimmerButton', 'WCShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !WC.Config.ShimmerClicking);
-    optionButton(listingdiv, 'productClickButton', 'WCProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product (kinda buggy)', !WC.Config.ProductClicking);
+    optionButton(listingdiv, 'autoclickButton', 'WC.AutoclickingToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !WC.Config.Clicking);
+    optionButton(listingdiv, 'bigCookieButton', 'WC.BigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !WC.Config.BigCookieClicking);
+    optionButton(listingdiv, 'shimmerButton', 'WC.ShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !WC.Config.ShimmerClicking);
+    optionButton(listingdiv, 'productClickButton', 'WC.ProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product (kinda buggy)', !WC.Config.ProductClicking);
 
     sub.appendChild(listingdiv);
 	}
