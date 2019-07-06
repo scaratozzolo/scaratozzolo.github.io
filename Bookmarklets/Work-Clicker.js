@@ -55,7 +55,7 @@ WC.Main = function() {
   document.onkeydown = function(e){
     for(let item of Object.keys(WC.Config.KeyConfig)){
       if(e.keyCode == WC.Config.KeyConfig[item].keyCode){
-        item.func();
+        WC.Config.KeyConfig[item].func();
       }
     }
   }
