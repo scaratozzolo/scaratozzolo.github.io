@@ -15,7 +15,7 @@ WC.Config.ShimmerClicking = false;
 WC.Config.ProductClicking = false;
 
 WC.Config.KeyConfig = {};
-WC.Config.KeyConfig.AutoclickingToggle = {keyCode:88, func:function(){console.log('not implemented yet');}};
+WC.Config.KeyConfig.AutoclickingToggle = {keyCode:88, func:function(){WC.AutoclickingToggle();}};
 WC.Config.KeyConfig.Upgrade = {keyCode:90, func:function(){if(document.getElementById('upgrades').children.length != 0) eventFire(document.getElementById('upgrades').children[0], 'click');}};
 WC.Config.KeyConfig.Product0 = {keyCode:49, func:function(){eventFire(document.getElementById('product0'), 'click');}}; //1
 WC.Config.KeyConfig.Product1 = {keyCode:50, func:function(){eventFire(document.getElementById('product1'), 'click');}}; //2
