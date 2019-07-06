@@ -1,5 +1,5 @@
 var WC = {};
-WC.Version = "0.5.2";
+WC.Version = "0.5.3";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
@@ -222,6 +222,10 @@ WC.AutoClick = function() {
       }
       eventFire(document.getElementById(WC.Products.HighestUnlocked), 'click');
     }
+  }
+
+  if(WC.Config.UpgradeBuying){
+    if(document.getElementById('upgrades').children.length != 0) eventFire(document.getElementById('upgrades').children[0], 'click');
   }
 }
 
