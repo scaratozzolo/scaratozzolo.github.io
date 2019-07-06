@@ -1,105 +1,63 @@
-var version = "0.4.5";
+var version = "0.5.0";
 console.log("Work-Clicker.js v" + version);
+
 var WC = {};
+WC.Config = {};
+WC.Products = {};
+WC.Custom = {};
 
-var clickspeed = 75;
-var interval = null;
-var clicking = false;
-var bigCookieClicking = false;
-var shimmerClicking = false;
-var productClicking = false;
-var highestProduct = "";
+WC.Interval = null;
 
-var customTickers=["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + version];
-customTickersFunction=function() { return customTickers; }
-Game.customTickers.push(customTickersFunction);
+WC.Config.ClickSpeed = 75;
+WC.Config.Clicking = false;
+WC.Config.BigCookieClicking = false;
+WC.Config.ShimmerClicking = false;
+WC.Config.ProductClicking = false;
 
-initMyBookmarklet();
+WC.Config.KeyConfig = {};
+WC.Config.KeyConfig.AutoclickingToggle = {keyCode:88, func:function(){console.log('not implemented yet');}};
+WC.Config.KeyConfig.Upgrade = {keyCode:90, func:function(){if(document.getElementById('upgrades').children.length != 0) eventFire(document.getElementById('upgrades').children[0], 'click');}};
+WC.Config.KeyConfig.Product0 = {keyCode:49, func:function(){eventFire(document.getElementById('product0'), 'click');}}; //1
+WC.Config.KeyConfig.Product1 = {keyCode:50, func:function(){eventFire(document.getElementById('product1'), 'click');}}; //2
+WC.Config.KeyConfig.Product2 = {keyCode:51, func:function(){eventFire(document.getElementById('product2'), 'click');}}; //3
+WC.Config.KeyConfig.Product3 = {keyCode:52, func:function(){eventFire(document.getElementById('product3'), 'click');}}; //4
+WC.Config.KeyConfig.Product4 = {keyCode:53, func:function(){eventFire(document.getElementById('product4'), 'click');}}; //5
+WC.Config.KeyConfig.Product5 = {keyCode:54, func:function(){eventFire(document.getElementById('product5'), 'click');}}; //6
+WC.Config.KeyConfig.Product6 = {keyCode:55, func:function(){eventFire(document.getElementById('product6'), 'click');}}; //7
+WC.Config.KeyConfig.Product7 = {keyCode:56, func:function(){eventFire(document.getElementById('product7'), 'click');}}; //8
+WC.Config.KeyConfig.Product8 = {keyCode:57, func:function(){eventFire(document.getElementById('product8'), 'click');}}; //9
+WC.Config.KeyConfig.Product9 = {keyCode:48, func:function(){eventFire(document.getElementById('product9'), 'click');}}; //0
+WC.Config.KeyConfig.Product10 = {keyCode:189, func:function(){eventFire(document.getElementById('product10'), 'click');}}; // - _
+WC.Config.KeyConfig.Product11 = {keyCode:187, func:function(){eventFire(document.getElementById('product11'), 'click');}}; // = +
+WC.Config.KeyConfig.Product12 = {keyCode:81, func:function(){eventFire(document.getElementById('product12'), 'click');}}; // q
+WC.Config.KeyConfig.Product13 = {keyCode:87, func:function(){eventFire(document.getElementById('product13'), 'click');}}; // w
+WC.Config.KeyConfig.Product14 = {keyCode:69, func:function(){eventFire(document.getElementById('product14'), 'click');}}; // e
+WC.Config.KeyConfig.Product15 = {keyCode:82, func:function(){eventFire(document.getElementById('product15'), 'click');}}; // r
+WC.Config.KeyConfig.ManualBigCookie = {keyCode:67, func:function(){eventFire(document.getElementById('bigCookie'), 'click');}}; //c
+WC.Config.KeyConfig.ManualShimmers = {keyCode:86, func:function(){if(document.getElementById('shimmers').innerHTML != "") eventFire(document.getElementsByClassName('shimmer')[0], 'click');;}}; //v
 
-function initMyBookmarklet() {
+WC.Products.HighestUnlocked = "";
 
-  interval = setInterval(function(){ autoClick(); }, clickspeed);
-  clicking = true;
-  bigCookieClicking = true;
-  shimmerClicking = true;
-  productClicking = true;
+WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + version];
+WC.Custom.customTickersFunction = function() { return WC.Custom.customTickers; }
+Game.customTickers.push(WC.Custom.customTickersFunction);
+
+WC.Main();
+
+
+WC.Main = function() {
+
+  WC.Interval = setInterval(function(){ WC.AutoClick(); }, WC.ClickSpeed);
+  WC.Config.Clicking = true;
+  WC.Config.BigCookieClicking = true;
+  WC.Config.ShimmerClicking  = true;
+  WC.Config.ProductClicking = true;
   document.onkeydown = function(e){
-    //x turn on/off auto click
-    if(e.keyCode==88){
-    	if(clicking){
-        clearInterval(interval);
-        clicking = false
-      }else{
-        interval = setInterval(function(){ autoClick(); }, clickspeed);
-        clicking = true;
+
+    for(let item of Object.keys(WC.Config.KeyConfig)){
+      if(e.keyCode == item.keyCode){
+        item.func();
       }
-    //z
-    }else if(e.keyCode==90){
-      if(document.getElementById('upgrades').children.length != 0){
-          eventFire(document.getElementById('upgrades').children[0], 'click');
-      }
-    //1
-    }else if(e.keyCode==49){
-	     eventFire(document.getElementById('product0'), 'click');
-    //2
-    }else if(e.keyCode==50){
-    	 eventFire(document.getElementById('product1'), 'click');
-    //3
-    }else if(e.keyCode==51){
-    	 eventFire(document.getElementById('product2'), 'click');
-    //4
-    }else if(e.keyCode==52){
-    	 eventFire(document.getElementById('product3'), 'click');
-    //5
-    }else if(e.keyCode==53){
-    	 eventFire(document.getElementById('product4'), 'click');
-    //6
-    }else if(e.keyCode==54){
-    	 eventFire(document.getElementById('product5'), 'click');
-    //7
-    }else if(e.keyCode==55){
-    	 eventFire(document.getElementById('product6'), 'click');
-    //8
-    }else if(e.keyCode==56){
-    	 eventFire(document.getElementById('product7'), 'click');
-    //9
-    }else if(e.keyCode==57){
-    	 eventFire(document.getElementById('product8'), 'click');
-    //0
-    }else if(e.keyCode==48){
-    	 eventFire(document.getElementById('product9'), 'click');
-    //- and _
-    }else if(e.keyCode==189){
-    	 eventFire(document.getElementById('product10'), 'click');
-    //+ and =
-    }else if(e.keyCode==187){
-    	 eventFire(document.getElementById('product11'), 'click');
-    //q
-    }else if(e.keyCode==81){
-    	 eventFire(document.getElementById('product12'), 'click');
-    //w
-    }else if(e.keyCode==87){
-    	 eventFire(document.getElementById('product13'), 'click');
-    //e
-    }else if(e.keyCode==69){
-    	 eventFire(document.getElementById('product14'), 'click');
-    //r
-    }else if(e.keyCode==82){
-    	 eventFire(document.getElementById('product15'), 'click');
-    //c maunal click big cookie
-    }else if(e.keyCode==67){
-    	 eventFire(document.getElementById('bigCookie'), 'click');
-    //v manual click shimmers
-    }else if(e.keyCode==86){
-      if(document.getElementById('shimmers').innerHTML != ""){
-        eventFire(document.getElementsByClassName('shimmer')[0], 'click');
-      }
-    //b turn on/off auto big cookie clicking
-    }else if(e.keyCode==66){
-      bigCookieClicking = !bigCookieClicking;
-    //n turn on/off auto shimmer clicking
-    }else if(e.keyCode==78){
-      shimmerClicking = !shimmerClicking;
     }
   }
 
@@ -107,12 +65,12 @@ function initMyBookmarklet() {
   Game.UpdateMenu = function(){
     WC.UpdateMenu();
     document.getElementById('menu').querySelector('.subsection').children[7].remove();
-    CustomMenu();
+    WC.CustomMenu();
   }
 
 }
 
-function CustomMenu(){
+WC.CustomMenu = function(){
 	var titlediv = document.createElement('div');
 	titlediv.className = 'title';
 	titlediv.textContent = 'Work-Clicker.js';
@@ -158,63 +116,63 @@ function optionButton(parent, id, callback, button, labelText, invert){
 
 }
 
-function WCAutoToggle(){
+WC.AutoclickingToggle = function(){
   var el = document.getElementById('autoclickButton');
 
-  if(clicking){
+  if(WC.Config.Clicking){
     el.textContent = "Autoclicking OFF";
     el.className = 'option off';
-    clearInterval(interval);
-    clicking = false
+    clearInterval(WC.Interval);
+    WC.Config.Clicking = false
 
   }else{
     el.textContent = "Autoclicking ON";
     el.className = 'option';
-    interval = setInterval(function(){ autoClick(); }, clickspeed);
-    clicking = true;
+    WC.Interval = setInterval(function(){ WC.AutoClick(); }, WC.Config.ClickSpeed);
+    WC.Config.Clicking = true;
   }
 
 }
 
-function WCBigCookieToggle(){
+WC.BigCookieToggle = function(){
   var el = document.getElementById('bigCookieButton');
-  if(bigCookieClicking){
+  if(WC.Config.BigCookieClicking){
     el.textContent = "Big Cookie Autoclicking OFF";
     el.className = 'option off';
-    bigCookieClicking = false
+    WC.Config.BigCookieClicking = false
 
   }else{
     el.textContent = "Big Cookie Autoclicking ON";
     el.className = 'option';
-    bigCookieClicking = true;
+    WC.Config.BigCookieClicking = true;
   }
 }
 
-function WCShimmerToggle(){
+WC.ShimmerToggle = function(){
   var el = document.getElementById('shimmerButton');
-  if(shimmerClicking){
+  if(WC.Config.ShimmerClicking){
     el.textContent = "Shimmer Autoclicking OFF";
     el.className = 'option off';
-    shimmerClicking = false
+    WC.Config.ShimmerClicking = false
 
   }else{
     el.textContent = "Shimmer Autoclicking ON";
     el.className = 'option';
-    shimmerClicking = true;
+    WC.Config.ShimmerClicking = true;
   }
 }
 
-function WCProductToggle(){
+WC.ProductToggle = function(){
   var el = document.getElementById('productClickButton');
-  if(productClicking){
+  if(WC.Config.ProductClicking){
     el.textContent = "Product Autoclicking OFF";
     el.className = 'option off';
-    productClicking = false
+    WC.Config.ProductClicking = false
 
   }else{
     el.textContent = "Product Autoclicking ON";
     el.className = 'option';
-    productClicking = true;
+    WC.Config.ProductClicking = true;
   }
 }
 
@@ -229,25 +187,25 @@ function eventFire(el, etype){
   }
 }
 
-function autoClick() {
-  if (bigCookieClicking){
+WC.AutoClick = function() {
+  if (WC.Config.BigCookieClicking){
     eventFire(document.getElementById('bigCookie'), 'click');
   }
 
-  if(shimmerClicking){
+  if(WC.Config.ShimmerClicking){
     if(document.getElementById('shimmers').innerHTML != ""){
       eventFire(document.getElementsByClassName('shimmer')[0], 'click');
     }
   }
 
-  if(productClicking){
+  if(WC.Config.ProductClicking){
 
     let products = document.getElementById('products').querySelectorAll('.unlocked');
     if(products.length != 0){
-      if(products[products.length-1].id > highestProduct){
-        highestProduct = products[products.length-1].id
+      if(products[products.length-1].id > WC.Products.HighestUnlocked){
+        WC.Products.HighestUnlocked = products[products.length-1].id
       }
-      eventFire(document.getElementById(highestProduct), 'click');
+      eventFire(document.getElementById(WC.Products.HighestUnlocked), 'click');
     }
   }
 }
