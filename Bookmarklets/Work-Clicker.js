@@ -1,7 +1,8 @@
-var version = "0.5.0";
-console.log("Work-Clicker.js v" + version);
-
 var WC = {};
+WC.Version = "0.5.1";
+console.log("Work-Clicker.js v" + WC.Version);
+
+
 WC.Config = {};
 WC.Products = {};
 WC.Custom = {};
@@ -37,7 +38,7 @@ WC.Config.KeyConfig.ManualShimmers = {keyCode:86, func:function(){if(document.ge
 
 WC.Products.HighestUnlocked = "";
 
-WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + version];
+WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + WC.Version];
 WC.Custom.customTickersFunction = function() { return WC.Custom.customTickers; }
 Game.customTickers.push(WC.Custom.customTickersFunction);
 
