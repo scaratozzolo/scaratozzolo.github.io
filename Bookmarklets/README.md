@@ -51,7 +51,7 @@ javascript:(function(){ Game.LoadMod('https://scaratozzolo.github.io/Bookmarklet
 At work we use a reporting program that uses bootstrap tables, but doesn't have hover. Now it does.
 
 ```javascript
-javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Add-Table-Hover.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Add-Table-Hover.js?v='+parseInt(Math.random()*99999999);document.head.appendChild(s);})();
 ```
 
 ## Vanish.js
@@ -62,7 +62,7 @@ Press 'ctrl+shift+z' for random animations. Uses [Animate.css](https://daneden.g
 Press 'ctrl+shift+x' to change the vanish speed. Default 200 milliseconds.
 
 ```javascript
-javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Vanish.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Vanish.js?v='+parseInt(Math.random()*99999999);document.head.appendChild(s);})();
 ```
 
 ## Marqueeee.js
@@ -70,5 +70,5 @@ javascript:(function(){s=document.createElement('script');s.type='text/javascrip
 Turn any text into a marquee.
 
 ```javascript
-javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Marqueeee.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Marqueeee.js?v='+parseInt(Math.random()*99999999);document.head.appendChild(s);})();
 ```
