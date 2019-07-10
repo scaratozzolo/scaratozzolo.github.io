@@ -1,30 +1,38 @@
-Expedition Everest - Legend of the Forbidden Mountain:26068
-Stitch's Great Escape! - Temporarily Closed:5490
-Mickey's House and Meet Mickey:353381
-Animation Academy:353289
-California Screamin':353303
-Astro Orbitor:353291
-Autopia:353293
-Big Thunder Mountain Railroad:80010110
-Buzz Lightyear Astro Blasters:353301
-Casey Jr. Circus Train:353305
-Chip 'n Dale Treehouse:353309
-Davy Crockett's Explorer Canoes:353311
-Disneyland Monorail:353313
-Disneyland Railroad:353315
-Donald's Boat:353321
-Gran Fiesta Tour Starring The Three Caballeros:207395
+Tike's Peak:71
 Advanced Training Lab:3831
-Soarin' Around the World:353431
+Stitch's Great Escape! - Temporarily Closed:5490
+Typhoon Lagoon Surf Pool:13602
+Crush 'n' Gusher:14200
+Lights, Motors, Action! Extreme Stunt Show:15026
+Soarin' Around the World:19324604
+Bay Slides:20534
+Ski Patrol Training Camp:24750
+Expedition Everest - Legend of the Forbidden Mountain:26068
 American Heritage Gallery:26421
 Bruce's Shark World:56404
 Stave Church Gallery:61525
 Turtle Talk With Crush:62992
+Marketplace Carousel:65081
+Marketplace Train Express:65082
+Marketplace Fun Fountains:65083
 Kidcot Fun Stops:91245
 The Seas with Nemo & Friends:107785
+Monsters, Inc. Laugh Floor:136550
 House of the Whispering Willows:160914
+Gran Fiesta Tour Starring The Three Caballeros:207395
+Toy Story Mania!:209857
 Project Tomorrow: Inventing the Wonders of the Future:220239
+Walt Disney World Railroad - Frontierland:2219610
+Walt Disney's Enchanted Tiki Room:353325
+Sorcerers of the Magic Kingdom:16414579
+The Barnstormer:16491297
+Walt Disney World Railroad - Fantasyland:16491299
+Casey Jr. Splash 'N' Soak Station:16512939
 Disney Phineas and Ferb: Agent P's World Showcase Adventure:16633259
+Cinderella Castle:16767209
+Under the Sea ~ Journey of The Little Mermaid:16767263
+Enchanted Tales with Belle:16767276
+Seven Dwarfs Mine Train:16767284
 Garden - Everglades Garden Disney's Wilderness Preserve:17266899
 Topiary - Phineas and Ferb:17266912
 Festival Happening - HGTV Theater:17266913
@@ -54,8 +62,13 @@ Garden - Festival Blooms:17267034
 Topiary - Troll Topiary:17267035
 Play Area - Mater's Parts, Plants & Play Garden:17267041
 Festival Happening - Pride Rock Fun Spot:17267042
+A Pirate's Adventure ~ Treasures of the Seven Seas:17272158
+Wilderness Explorers:17396838
+Wildlife Express Train - Rafiki's Planet Watch Station:17425804
 DISCOVER THE CRANBERRY:17502904
 The Chocolate Experience: From Bean to the Bar:17502907
+Allergy-Friendly Trick-Or-Treat Experience - Mickey's Not-So-Scary Halloween Party:17511485
+Treat Locations for Mickey's Not-So-Scary Halloween Party:17511582
 Garden - Florida Fresh Garden:17668887
 Topiary - Spring is in the Air - NEW!:17668920
 Topiary - Fantasia:17668924
@@ -66,12 +79,40 @@ Garden - Bears Sand Sculpture:17668972
 Garden - Gardener's Palette:17668973
 Garden - Backyard Habitat:17668974
 Garden - Hummingbirds at Home:17668979
-Topiaries, Gardens and Exhibits at the 2018 Epcot International Flower & Garden Festival:17669982
+2020 Epcot International Flower & Garden Festival - Topiaries, Gardens and Exhibits:17669982
 Garden Displays at the 2014 Epcot International Flower & Garden Festival:17728308
+Pirate and Princess Adventures at Walt Disney World:17823158
+Wandering Oaken's Frozen Snowground:17844192
+Take-Along Olaf:17844222
 Back to Basics NEW!:17849692
+African Elephants - Disney Animals:17883614
+Rhinos - Disney Animals:17883682
+Lions - Disney Animals:17883684
+Gorillas - Disney Animals:17883688
+Tamarins - Disney Animals:17883689
 Coral Reefs - Disney Animals:17883690
-Sharks and Stingrays - Disney Animals:17883691
+Sharks and Rays - Disney Animals:17883691
 Sea Turtles - Disney Animals:17883692
+Butterflies - Disney Animals:17883693
+Migratory Birds - Disney Animals:17883694
+Tigers - Disney Animals:17905380
+White Rhinos - Disney Animals:17905384
+Black Rhinos - Disney Animals:17905385
+Migratory Birds at Pangani Forest Exploration Trail - Disney Animals:17905388
+Migratory Birds at Maharajah Jungle Trek - Disney Animals:17905389
+Migratory Birds at Flights of Wonder - Disney Animals:17905393
+Migratory Birds at The Oasis Exhibits - Disney Animals:17905394
+Migratory Birds at Tree of Life - Disney Animals:17905399
+Disney Animals:17920665
+Aquatica:17943972
+Discovery Cove:17944006
+LegoLand:17944007
+Busch Gardens:17944008
+Sea World:17944030
+Universal Studios:17944031
+Universal's Islands of Adventure:17944032
+Wet 'n Wild:17944033
+NASA - Cape Canaveral:17944034
 Topiary - Farmer Mickey Mouse and Minnie Minnie:18045435
 Topiary - Anna and Elsa - NEW!:18045436
 Topiary - Disney-Pixar's Mike Wazowski and Sulley:18045437
@@ -106,258 +147,245 @@ Play Area - Cactus Road Rally:18052960
 Garden - Disney-Pixar Inside Out Emotion Garden - NEW!:18052965
 Garden - Nature Rocks - NEW!:18052966
 Garden - Pizzeria Garden - NEW!:18052969
-Disney-Pixar Inside Out Sneak Peek:18123570
-Disney & Pixar Short Film Festival:18269694
-Frozen Ever After:18375495
-Butterflies at Epcot - Disney Animals:18377153
-Frozen at Walt Disney World Resort:18397938
-Reef Fish - Disney Animals:18672355
-Invertebrates at Epcot - Disney Animals:18673469
-Gallery of Arts and History:80010137
-ImageWorks - The "What If" Labs:80010144
-Impressions de France:80010145
-Innoventions:80010147
-Journey Into Imagination With Figment:80010152
-Lights, Motors, Action! Extreme Stunt Show:15026
-Toy Story Mania!:209857
-Wandering Oaken's Frozen Snowground:17844192
-Take-Along Olaf:17844222
 Star Wars: Rebels - The Ultimate Guide:18115367
 "Frozen Fever" Short Film:18120858
+Disney-Pixar Inside Out Sneak Peek:18123570
+Holiday Treats Locations - Mickey's Very Merry Christmas Party:18207265
 Star Wars Launch Bay:18237343
 Star Wars: Path of the Jedi:18243993
 Star Wars at Walt Disney World Resort:18263038
+Disney and Pixar Short Film Festival:18269694
 Star Wars Photo Opportunities:18276132
 Star Wars Launch Bay Theater:18360041
+Frozen Ever After:18375495
+Butterflies at Rafiki's Planet Watch - Disney Animals:18377143
+Butterflies at Epcot - Disney Animals:18377153
+Disney's Animal Kingdom Park at Night:18377701
+Frozen at Walt Disney World Resort:18397938
+Pirates at Walt Disney World Resort:18466383
+Giraffes - Disney Animals:18478569
+Hippopotamuses - Disney Animals:18478570
+Okapis - Disney Animals:18478578
+Pirates at Walt Disney World:18485750
+Stitch's Holiday Gift Hunt:18573577
+Miss Adventure Falls:18628633
+Na'vi River Journey:18665185
+Avatar Flight of Passage:18665186
+Reef Fish - Disney Animals:18672355
+Vultures - Disney Animals:18673386
+Zebras at Kilimanjaro Safaris - Disney Animals:18673399
+Zebras at Gorilla Falls Exploration Trail - Disney Animals:18673408
+Invertebrates at Gorilla Falls Exploration Trail - Disney Animals:18673456
+Invertebrates at Epcot - Disney Animals:18673469
+Invertebrates - Disney Animals:18673477
+Zebras - Disney Animals:18673532
+Horses - Disney Animals:18677928
+Pandora - The World of Avatar:18679393
+Flamingos - Disney Animals:18685133
+Gibbons - Disney Animals:18685276
+African Birds - Disney Animals:18685279
+Vintage Amphicar & Italian Water Taxi Tours:18693677
+Splitsville Luxury Lanes:18701277
+Aerophile - The World Leader in Balloon Flight:18721320
+The VOID: Step Beyond Reality:18766505
 Walt Disney Presents:18770880
-Slinky Dog Dash - Opening June 30, 2018!:18904138
-Alien Swirling Saucers - Opening June 30, 2018!:18904172
-Toy Story Land - Opening June 30, 2018!:18965917
-Indiana Jones Epic Stunt Spectacular!:80010146
-Muppet*Vision 3D:80010151
-Rock 'n' Roller Coaster Starring Aerosmith:80010182
-Star Tours - The Adventures Continue:353439
-The Twilight Zone Tower of Terror:80010218
-Voyage of The Little Mermaid:80010229
-Walt Disney: One Man's Dream:80010231
-Peter Pan's Flight:80010176
-Mickey's PhilharMagic:80010170
-The Magic Carpets of Aladdin:80010210
-Splash Mountain:353437
-Goofy's Playhouse:353343
-The Barnstormer:16491297
-Minnie's House:353383
-Alice in Wonderland:367495
-The Many Adventures of Winnie the Pooh:353449
-The Little Mermaid ~ Ariel's Undersea Adventure:15575069
-Prince Charming Regal Carrousel:80010117
+Slinky Dog Dash:18904138
+Alien Swirling Saucers:18904172
+Toy Story Land:18965917
+Coca-Cola Polar Bear Photo Op Experience:19020131
+Star Wars: Galaxy's Edge - Opening August 29, 2019:19025681
+Play Disney Parks:19085473
+Disney "The Nutcracker and the Four Realms" Sneak Peek:19101114
+Disney "Ralph Breaks the Internet" Sneak Peek:19136941
+Disney "Mary Poppins Returns" Sneak Peek:19175772
+Mickey and Minnie's Runaway Railway - Opening Spring 2020!:19259335
+Disney's "Dumbo" Sneak Peek:19261879
+Millennium Falcon: Smugglers Run - Opening August 29, 2019:19263735
+Star Wars: Rise of the Resistance - Coming in 2019:19263736
+Star Wars: Datapad on Play Disney Parks Mobile App - Launching August 29, 2019!:19272517
+Lightning McQueen's Racing Academy - Now Open!:19276204
+NBA Experience: Combine:19317989
+NBA Experience: Shoot:19317993
+NBA Experience: Slingshot:19317994
+NBA Experience: Replay Center:19317995
+NBA Experience: Dribble:19317996
+NBA Experience: Arcade:19317998
+NBA Experience: Dunk:19317999
+NBA Experience: Trivia:19318001
+NBA Experience: Trophy Moment:19324055
+NBA Experience: EER:19324056
+NBA Experience: Draft:19324057
+NBA Experience: Registration Kiosks:19324058
+The Animation Experience at Conservation Station - Opening July 11, 2019:19330300
+Affection Section:80010104
+Astro Orbiter:80010107
+Big Thunder Mountain Railroad:353295
 Buzz Lightyear's Space Ranger Spin:80010114
-Mad Tea Party:353369
+Castaway Creek:80010115
+Chairlift:80010116
+Prince Charming Regal Carrousel:80010117
+Conservation Station:80010119
+Cross Country Creek:80010122
+DINOSAUR:80010123
+Dino-Sue:80010124
+Discovery Island Trails:80010126
+Downhill Double Dipper:80010128
+Dumbo the Flying Elephant:353323
+Fossil Fun Games:80010133
+Frontierland Shootin' Arcade:80010135
+Gallery of Arts and History:80010137
+Gangplank Falls:80010138
+Habitat Habit!:80010140
+Humunga Kowabunga:80010143
+ImageWorks - The "What If" Labs:80010144
+Impressions de France:80010145
+Indiana Jones Epic Stunt Spectacular!:80010146
+Innoventions:80010147
+"it's a small world":367492
+It's Tough to be a Bug!:80010150
+Muppet*Vision 3D:80010151
+Journey Into Imagination With Figment:80010152
+Jungle Cruise:353363
+Kali River Rapids:80010154
+Keelhaul Falls:80010155
+Ketchakiddee Creek:80010156
+Kilimanjaro Safaris:80010157
 Leave A Legacy:80010159
+Liberty Square Riverboat:80010160
 Living with the Land:80010161
+Mad Tea Party:353369
+Maharajah Jungle Trek:80010164
+Main Street Vehicles:393385
+Mayday Falls:80010167
+Melt-Away Bay:80010168
+Mickey's PhilharMagic:19299875
 Mission: SPACE:80010173
 O Canada!:80010174
+Gorilla Falls Exploration Trail:80010175
+Peter Pan's Flight:353399
+Pirates of the Caribbean:353405
+Primeval Whirl:80010178
 Reflections of China:80010180
+Rock 'n' Roller Coaster Starring Aerosmith:80010182
+Runoff Rapids:80010183
 SeaBase:80010184
+Slush Gusher:80010186
+Snow Stormers:80010187
+Space Mountain:18237368
 Spaceship Earth:80010191
+Splash Mountain:353437
+Star Tours - The Adventures Continue:353439
+Storm Slides:80010194
+Summit Plummet:80010195
+Swiss Family Treehouse:80010196
+Teamboat Springs:80010198
 Test Track:80010199
 The American Adventure:80010200
+The Boneyard:80010203
+Haunted Mansion:353347
+The Magic Carpets of Aladdin:80010210
+The Many Adventures of Winnie the Pooh:353449
+The Oasis Exhibits:80010214
+Tree of Life:80010217
+The Twilight Zone Tower of Terror:80010218
+Toboggan Racers:80010219
+Tom Sawyer Island:80010220
+Tomorrowland Speedway:80010222
+Tomorrowland Transit Authority PeopleMover:80010224
+TriceraTop Spin:80010228
+Voyage of The Little Mermaid:80010229
+Walt Disney World Railroad - Main Street, U.S.A.:80010230
+Walt Disney: One Man's Dream:80010231
+Walt Disney's Carousel of Progress:80010232
+Wildlife Express Train:80010235
 Mexico Folk Art Gallery:80069743
 Bijutsu-kan Gallery:80069745
-Dumbo the Flying Elephant:80010129
-Walt Disney's Enchanted Tiki Room:16124144
+Country Bear Jamboree:80069748
+The Hall of Presidents:80069754
+Animation Academy:353289
+Astro Orbitor:353291
+Autopia:353293
+Buzz Lightyear Astro Blasters:353301
+Incredicoaster:353303
+Casey Jr. Circus Train:353305
+Chip 'n Dale Treehouse:353309
+Davy Crockett's Explorer Canoes:353311
+Disneyland Monorail:353313
+Disneyland Railroad:353315
+Donald's Boat:353321
 Finding Nemo Submarine Voyage:353327
 Main Street Vehicles - Fire Engine:353329
 Frontierland Shootin' Exposition:353335
 Gadget's Go Coaster:353337
-Haunted Mansion:80010208
+Games of Pixar Pier:353339
+Golden Zephyr:353341
+Goofy's Playhouse:353343
+Grizzly River Run:353345
 Main Street Vehicles - Horse-Drawn Streetcars:353351
 Main Street Vehicles - Horseless Carriage:353353
 Indiana Jones Adventure:353355
-Jungle Cruise:80010153
+Jumpin' Jellyfish:353361
 King Arthur Carrousel:353365
+Jessie's Critter Carousel:353367
 Main Street Cinema:353371
 Mark Twain Riverboat:353375
 Matterhorn Bobsleds:353377
+Pixar Pal-A-Round - Swinging:353379
+Mickey's House and Meet Mickey:353381
+Minnie's House:353383
+Monsters, Inc. Mike & Sulley to the Rescue!:353387
 Mr. Toad's Wild Ride:353389
 Main Street Vehicles - Omnibus:353395
 Pinocchio's Daring Journey:353401
 Pirate's Lair on Tom Sawyer Island:353403
-Pirates of the Caribbean:80010177
+Redwood Creek Challenge Trail:353413
 Roger Rabbit's Car Toon Spin:353421
 Sailing Ship Columbia:353425
 Sleeping Beauty Castle Walkthrough:353427
 Snow White's Scary Adventures:353429
-Space Mountain:80010190
+Soarin' Over California:353431
+Sorcerer's Workshop:353433
+Hyperspace Mountain:353435
 Storybook Land Canal Boats:353443
 Tarzan's Treehouse:353445
-The Disneyland Story presenting Great Moments with Mr. Lincoln:353461
-"it's a small world":80010149
-Main Street Vehicles:80010165
-Pixie Hollow:3433651
-Fantasmic!:16204726
-The Disney Gallery:17734741
-Trick-or-Treating at Mickey's Halloween Party:18171939
-"it's a small world" Holiday:18237232
-Hyperspace Mountain:18237368
-Haunted Mansion Holiday:18249927
-Space Mountain Ghost Galaxy:18449559
-Main Street Pumpkin Festival:18452199
-Holiday D�cor:18532806
-Flik's Flyers:353331
-Francis' Ladybug Boogie:353333
-Games of the Boardwalk:353339
-Golden Zephyr:353341
-Grizzly River Run:353345
-Heimlich's Chew Chew Train:353349
-Jumpin' Jellyfish:353361
-King Triton's Carousel:353367
-Mickey's Fun Wheel:353379
-Monsters, Inc. Mike & Sulley to the Rescue!:353387
-Princess Dot Puddle Park:353409
-Redwood Creek Challenge Trail:353413
-Sorcerer's Workshop:353433
 The Bakery Tour:353447
 Guardians of the Galaxy - Mission: BREAKOUT!:353451
 Toy Story Midway Mania!:353453
-Tuck and Roll's Drive 'Em Buggies:353455
 Turtle Talk with Crush:353457
+Walt Disney Imagineering Blue Sky Cellar:353459
+The Disneyland Story presenting Great Moments with Mr. Lincoln:353461
+Alice in Wonderland:367495
+Pixie Hollow:3433651
 Silly Symphony Swings:15510732
+The Little Mermaid ~ Ariel's Undersea Adventure:15575069
 Goofy's Sky School:15822029
 World of Color:16203280
+Fantasmic!:16204726
 Radiator Springs Racers:16514416
 Mater's Junkyard Jamboree:16514431
 Red Car Trolley:16581435
 Red Car Trolley - Hollywood Land:17328049
 Red Car Trolley - Carthay Circle:17328050
+The Disney Gallery:17734741
+Trick-or-Treating at Mickey's Halloween Party:18171939
+"it's a small world" Holiday:18237232
+Haunted Mansion Holiday:18249927
 Luigi's Rollickin' Roadsters:18343088
 Frozen at Disneyland Resort:18426726
+Main Street Pumpkin Festival:18452199
+Holiday Decor:18532806
 Mater's Graveyard JamBOOree:18752875
 Luigi's Honkin' Haul-O-Ween:18752877
-Halloween Time D�cor at Disney California Adventure Park:18755618
+Halloween Time Decor at Disney California Adventure Park:18755618
 Guardians of the Galaxy - Monsters After Dark:18774860
 Luigi's Joy to the Whirl:18848246
 Mater's Jingle Jamboree:18848247
-Star Wars: Secrets of the Empire by ILMxLAB and The VOID:18765895
 Splitsville Luxury Lanes - Bowling:18877575
-Monsters, Inc. Laugh Floor:136550
-Walt Disney World Railroad - Frontierland:2219610
-Sorcerers of the Magic Kingdom:16414579
-Walt Disney World Railroad - Fantasyland:16491299
-Casey Jr. Splash 'N' Soak Station:16512939
-Cinderella Castle:16767209
-Under the Sea ~ Journey of The Little Mermaid:16767263
-Enchanted Tales with Belle:16767276
-Seven Dwarfs Mine Train:16767284
-A Pirate's Adventure ~ Treasures of the Seven Seas:17272158
-Allergy-Friendly Trick-Or-Treat Experience - Mickey's Not-So-Scary Halloween Party:17511485
-Treat Locations for Mickey's Not-So-Scary Halloween Party:17511582
-Pirate and Princess Adventures at Walt Disney World:17823158
-Pirates at Walt Disney World Resort:18466383
-Pirates at Walt Disney World:18485750
-Horses - Disney Animals:18677928
-Astro Orbiter:80010107
-Frontierland Shootin' Arcade:80010135
-Liberty Square Riverboat:80010160
-Swiss Family Treehouse:80010196
-Tom Sawyer Island:80010220
-Tomorrowland Speedway:80010222
-Tomorrowland Transit Authority PeopleMover:80010224
-Walt Disney World Railroad - Main Street, U.S.A.:80010230
-Walt Disney's Carousel of Progress:80010232
-Country Bear Jamboree:80069748
-The Hall of Presidents:80069754
-Wilderness Explorers:17396838
-Wildlife Express Train - Rafiki's Planet Watch Station:17425804
-African Elephants - Disney Animals:17883614
-Rhinos - Disney Animals:17883682
-Lions - Disney Animals:17883684
-Gorillas - Disney Animals:17883688
-Tamarins - Disney Animals:17883689
-Butterflies - Disney Animals:17883693
-Migratory Birds - Disney Animals:17883694
-Tigers - Disney Animals:17905380
-White Rhinos - Disney Animals:17905384
-Black Rhinos - Disney Animals:17905385
-Migratory Birds at Pangani Forest Exploration Trail - Disney Animals:17905388
-Migratory Birds at Maharajah Jungle Trek - Disney Animals:17905389
-Migratory Birds at Flights of Wonder - Disney Animals:17905393
-Migratory Birds at The Oasis Exhibits - Disney Animals:17905394
-Migratory Birds at Tree of Life - Disney Animals:17905399
-Disney Animals:17920665
-Butterflies at Rafiki's Planet Watch - Disney Animals:18377143
-Disney's Animal Kingdom Park at Night:18377701
-Giraffes - Disney Animals:18478569
-Hippopotamuses - Disney Animals:18478570
-Okapis - Disney Animals:18478578
-Na'vi River Journey:18665185
-Avatar Flight of Passage:18665186
-Vultures - Disney Animals:18673386
-Zebras at Kilimanjaro Safaris - Disney Animals:18673399
-Zebras at Gorilla Falls Exploration Trail - Disney Animals:18673408
-Invertebrates at Rafiki's Planet Watch - Disney Animals:18673434
-Invertebrates at Gorilla Falls Exploration Trail - Disney Animals:18673456
-Invertebrates - Disney Animals:18673477
-Valley of Mo'ara:18673506
-Zebras - Disney Animals:18673532
-Pandora - The World of Avatar:18679393
-Flamingos - Disney Animals:18685133
-Gibbons - Disney Animals:18685276
-African Birds - Disney Animals:18685279
-Affection Section:80010104
-Conservation Station:80010119
-DINOSAUR:80010123
-Dino-Sue:80010124
-Discovery Island Trails:80010126
-Fossil Fun Games:80010133
-Habitat Habit!:80010140
-It's Tough to be a Bug!:80010150
-Kali River Rapids:80010154
-Kilimanjaro Safaris:80010157
-Maharajah Jungle Trek:80010164
-Gorilla Falls Exploration Trail:80010175
-Primeval Whirl:80010178
-The Boneyard:80010203
-The Oasis Exhibits:80010214
-Tree of Life:80010217
-TriceraTop Spin:80010228
-Wildlife Express Train:80010235
-Tike's Peak:71
-Typhoon Lagoon Surf Pool:13602
-Crush 'n' Gusher:14200
-Bay Slides:20534
-Ski Patrol Training Camp:24750
-Marketplace Carousel:65081
-Marketplace Train Express:65082
-Marketplace Fun Fountains:65083
-Aquatica:17943972
-Discovery Cove:17944006
-LegoLand:17944007
-Busch Gardens:17944008
-Sea World:17944030
-Universal Studios:17944031
-Universal's Islands of Adventure:17944032
-Wet 'n Wild:17944033
-NASA - Cape Canaveral:17944034
-Stitch's Holiday Gift Hunt:18573577
-Miss Adventure Falls:18628633
-Vintage Amphicar & Italian Water Taxi Tours:18693677
-Splitsville Luxury Lanes:18701277
-Aerophile-The World Leader in Balloon Flight:18721320
-Castaway Creek:80010115
-Chairlift:80010116
-Cross Country Creek:80010122
-Downhill Double Dipper:80010128
-Gangplank Falls:80010138
-Humunga Kowabunga:80010143
-Keelhaul Falls:80010155
-Ketchakiddee Creek:80010156
-Mayday Falls:80010167
-Melt-Away Bay:80010168
-Runoff Rapids:80010183
-Slush Gusher:80010186
-Snow Stormers:80010187
-Storm Slides:80010194
-Summit Plummet:80010195
-Teamboat Springs:80010198
-Toboggan Racers:80010219
+Pixar Pal-A-Round - Non-Swinging:19009994
+Star Wars: Datapad on Play Disney Parks Mobile App:19087113
+Fortune Tellers:19094413
+Millennium Falcon: Smugglers Run:19193459
+Star Wars: Rise of the Resistance:19193461
+Star Wars: Galaxy's Edge:19269294
+Inside Out Emotional Whirlwind:19285637
+Disney and Pixar's "Toy Story 4" Sneak Peek:19327730
