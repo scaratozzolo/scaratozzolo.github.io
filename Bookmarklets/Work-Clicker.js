@@ -1,10 +1,12 @@
-var WC = {};
+
 if(localStorage.WCSaveData !== 'undefined'){
-	WC = localStorage.WCSaveData;
+	var WC = localStorage.WCSaveData;
+}else{
+	var WC = {};
 }
 
 
-WC.Version = "0.6.0";
+WC.Version = "0.6.1";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
