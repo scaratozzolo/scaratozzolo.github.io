@@ -7,10 +7,10 @@ if(localStorage.WCConfigData){
 	WC.Config = JSON.parse(localStorage.WCConfigData);
 }else{
  	WC.Config.ClickSpeed = 75;
-	WC.Config.Clicking = false;
-	WC.Config.BigCookieClicking = false;
-	WC.Config.ShimmerClicking = false;
-	WC.Config.ProductClicking = false;
+	WC.Config.Clicking = true;
+	WC.Config.BigCookieClicking = true;
+	WC.Config.ShimmerClicking = true;
+	WC.Config.ProductClicking = true;
 	WC.Config.UpgradeBuying = false;
 
 	WC.Config.KeyConfig = {};
@@ -37,7 +37,7 @@ if(localStorage.WCConfigData){
 }
 
 
-WC.Version = "0.6.6";
+WC.Version = "0.6.7";
 console.log("Work-Clicker.js v" + WC.Version);
 
 WC.Interval = null;
@@ -55,10 +55,6 @@ WC.Main = function() {
 
   WC.Interval = setInterval(function(){ WC.AutoClick(); }, WC.ClickSpeed);
   WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
-  WC.Config.Clicking = true;
-  WC.Config.BigCookieClicking = true;
-  WC.Config.ShimmerClicking  = true;
-  WC.Config.ProductClicking = true;
   document.onkeydown = function(e){
     for(let item of Object.keys(WC.Config.KeyConfig)){
       if(e.keyCode == WC.Config.KeyConfig[item].keyCode){
