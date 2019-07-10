@@ -1,5 +1,10 @@
 var WC = {};
-WC.Version = "0.5.4";
+if(localStorage.WCSaveData !== 'undefined'){
+	WC = localStorage.WCSaveData;
+}
+
+
+WC.Version = "0.6.0";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
@@ -203,6 +208,10 @@ function eventFire(el, etype){
 }
 
 WC.AutoClick = function() {
+  if (typeof(Storage) !== "undefined") {
+    localStorage.WCSaveData = WC;
+  }	
+	
   if (WC.Config.BigCookieClicking){
     eventFire(document.getElementById('bigCookie'), 'click');
   }
