@@ -4,7 +4,7 @@ if(localStorage.WCSaveData){
 	WC = JSON.parse(localStorage.WCSaveData);
 }
 
-WC.Version = "0.6.3";
+WC.Version = "0.6.4";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
@@ -54,6 +54,7 @@ Game.customTickers.push(WC.Custom.customTickersFunction);
 WC.Main = function() {
 
   WC.Interval = setInterval(function(){ WC.AutoClick(); }, WC.ClickSpeed);
+  WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
   WC.Config.Clicking = true;
   WC.Config.BigCookieClicking = true;
   WC.Config.ShimmerClicking  = true;
@@ -207,10 +208,7 @@ function eventFire(el, etype){
   }
 }
 
-WC.AutoClick = function() {
-  if (typeof(Storage) !== "undefined") {
-    localStorage.WCSaveData = JSON.stringify(WC);
-  }	
+WC.AutoClick = function() {	
 	
   if (WC.Config.BigCookieClicking){
     eventFire(document.getElementById('bigCookie'), 'click');
@@ -235,6 +233,13 @@ WC.AutoClick = function() {
 
   if(WC.Config.UpgradeBuying){
     if(document.getElementById('upgrades').children.length != 0) eventFire(document.getElementById('upgrades').children[0], 'click');
+  }
+}
+
+WC.Save = function(){
+  if (typeof(Storage) !== "undefined") {
+    localStorage.WCSaveData = JSON.stringify(WC);
+    console.log('WC Saved');
   }
 }
 
