@@ -70,13 +70,6 @@ WC.Main = function() {
   }
  
   Game.UpdateMenu();
-  if(WC.Clicking){	  
- 	 WC.Clicking = false;
-	 WC.AutoclickingToggle();
-  }else{
-	WC.Clicking = true;  
-	WC.AutoclickingToggle();
-  }
 }
 
 
