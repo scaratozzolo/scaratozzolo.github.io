@@ -3,7 +3,7 @@ WC.Config = {};
 WC.Products = {};
 WC.Custom = {};
 
-if(localStorage.WCConfigData){
+if(false){//localStorage.WCConfigData
 	WC.Config = JSON.parse(localStorage.WCConfigData);
 }else{
  	WC.Config.ClickSpeed = 75;
@@ -53,7 +53,7 @@ Game.customTickers.push(WC.Custom.customTickersFunction);
 
 WC.Main = function() {
   
-  WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
+  //WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
   document.onkeydown = function(e){
     for(let item of Object.keys(WC.Config.KeyConfig)){
       if(e.keyCode == WC.Config.KeyConfig[item].keyCode){
