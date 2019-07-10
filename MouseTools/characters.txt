@@ -1,186 +1,268 @@
-Stitch:90004789
-Lilo:90004412
-Mickey Mouse:90004482
 Donald Duck:90004104
-June:145754
-Leo:145755
-Quincy:218197
-Annie:218198
-Jake (Never Land Pirate):15902246
-Doc McStuffins:16838587
-Sofia the First:17328170
-Captain Hook:90003976
-Peter Pan:90004605
-Aladdin:90003817
+Goofy:90004228
+Mickey Mouse:90004482
+Minnie Mouse:90004486
+Pluto:90004625
+Winnie the Pooh:90004921
+*Dug:16724789
+George Sanderson:17315099
+Abby Mallard:50955
 Abu:90003808
-Genie:90004213
-Nick Wilde:18368743
-Judy Hopps:18368747
+Agent Oso:15616024
+Ahsoka Tano:17345352
+Aladdin:90003817
+Alice:90003819
+Alien:17532224
+Anakin Skywalker:17345348
+Anastasia:90003829
+Anna:17577169
+Annie:218198
+Ariel:90003846
+Asajj Ventress:17345347
+Aurra Sing:17345314
+BB-8:18669336
 Baloo:90003879
-Chip:90004011
-Dale:90004069
-Captain Jack Sparrow:364896
-Wendell:1237711
+Bashful:90003889
+Baymax:17885966
+Beast:90003894
+Belle:90003898
+Bert:364850
 Big Al:1241501
+Black Panther:18730923
+Black Widow:18700029
+Bo Peep:90003925
+Boba Fett:17345316
+Boo:90003931
+Bowler Hat Guy:203076
 Br'er Bear:90003941
 Br'er Fox:90003942
 Br'er Rabbit:90003943
-Goofy:90004228
-Minnie Mouse:90004486
-Pluto:90004625
-Daisy Duck:90004068
-Scrooge McDuck:90004724
-Princess Tiana:431014
-Prince Naveen:431485
-Dr. Facilier:431486
-Louis:90004425
-Alice:90003819
-Cheshire Cat:90004004
-The Mad Hatter:90004439
-Eeyore:90004137
-Piglet:90004614
-Tigger:90004840
-Winnie the Pooh:90004921
-Ariel:90003846
-Ursula:90004887
-Prince Eric:90004148
-Sebastian:90004730
-Belle:90003898
-Cinderella:90004017
-Anastasia:90003829
-Drizella:90004126
-Lady Tremaine:90004398
-Prince Charming:90004638
-Elena:18405236
-Princess Jasmine:90004328
-Princess Aurora:90004642
-Snow White:90004772
-Rapunzel:15549505
-Flynn Rider:15549506
-Merida:16453979
-Elsa:17577168
-Anna:17577169
-Olaf:17813977
-Bashful:90003889
-Doc:90004098
-Dopey:90004107
-Jessie:90004336
+Bruce:17532220
 Bullseye:90003958
-Woody:90004925
 Buzz Lightyear:90003967
-Green Army Men:90004244
-Jiminy Cricket:90004340
-Pinocchio:90004618
-White Rabbit:90004907
-Grumpy:90004250
-Happy:90004263
-Sleepy:90004762
-Sneezy:90004769
-Prince Phillip:90004640
-Wendy:90004905
-Mr. Smee:90004519
-Tinker Bell:90004846
-Rosetta:306573
-Silvermist:306570
-Fawn:306593
-Iridessa:306594
-Vidia:15609849
-Maleficent:90004449
-Fairy Godmother:90004156
-Beast:90003894
+C-3PO:17345359
+Cantina Band:17345355
+Captain America:18120333
+Captain Hook:90003976
+Captain Jack Sparrow:364896
+Captain Marvel:19269073
+Captain Mickey:18101167
+Captain Rex:17345349
+Carl Fredericksen:339626
+Cheshire Cat:90004004
+Chewbacca:364853
+Chicken Little:50902
+Chip:90004011
 Chip (The Teacup):90004010
+Cinderella:90004017
+Clarabelle Cow:90004019
+Clone Troopers:17345350
 Cogsworth:90004033
-Gaston:90004210
-Lumiere:90004433
-Mrs. Potts:90004532
+Commander Cody:17345353
+Constance Hatchaway:19133567
 Cruella De Vil:90004059
-Queen of Hearts:90004661
+Crush:15675686
+Cruz Ramirez:18699348
+DJ:19289133
+Daisy Duck:90004068
+Dale:90004069
+Darth Maul:364898
+Darth Vader:431065
+Dash:90004076
+Doc:90004098
+Doc McStuffins:16838587
+Doctor Strange:18544129
+Dopey:90004107
+Dora Milaje:19312191
+Dr. Facilier:431486
+Drizella:90004126
+Duffy the Disney Bear:15609854
+Dug:339623
+Edna Mode:18710467
+Eeyore:90004137
+Elena:18405236
+Elsa:17577168
+Emile:218200
+Evil Queen:18205256
+Ewoks:17345354
+Fairy Godmother:90004156
+Fancy Nancy:19277806
+Fawn:306593
+Ferb:15920091
+First Order Stormtrooper:18188658
+Flash:18393706
+Flik:90004181
+Flynn Rider:15549506
+Friar Tuck:90004200
+Frollo:90004202
+Frozone:48201
+Gamora:18699345
+Gamorrean Guard:17345315
+Gaston:90004210
+Genie:90004213
 Geppetto:90004217
-Mary Poppins:90004456
-Bert:364850
-Suzy:90004800
-Rabbit:364808
-Terk:90004814
+Gideon:90004219
+Governor Ratcliffe:90004673
+Green Army Men:90004244
+Groot:18699230
+Grumpy:90004250
+Gus - (mouse):90004254
+Gypsy:90004256
+Hades:90004258
+Hamm:90004260
+Handy Manny:90004451
+Happy:90004263
+Hawkeye:18700030
+Heimlich:90004268
+Hiro:17885967
+Horace Horsecollar:90004290
+Iridessa:306594
+Iron Man:18730924
+J.Worthington Foulfellow (Honest John):90004318
+Jack Skellington:364907
+Jack-Jack:16869301
+Jafar:90004321
+Jake (Never Land Pirate):15902246
+James P. Sullivan (Sulley):90004323
 Jane Porter:90004324
-Tarzan:90004809
+Jango Fett:17345317
+Jaq:90004327
+Jawas:17345345
+Jessie:90004336
+Jiminy Cricket:90004340
+Jose Carioca:90004350
+Joy:18188665
+Judy Hopps:18368747
+June:145754
+Kermit:17532227
+Kevin:19205435
+Kida:19254942
+King Louie:90004374
+Kion:18403761
+Kit Fisto:17345351
+Kristoff:18687206
+Krylorian Girls:19315096
+Kylo Ren:18188660
+Lady:90004395
+Lady Tremaine:90004398
+Launchpad McQuack:90004404
+Leo:145755
+Lightning McQueen:203075
+Lilo:90004412
+Little John:90004417
+Loki:18730925
+Lotso:15437157
+Louis:90004425
+Luke Skywalker:17345356
+Lumiere:90004433
+Mace Windu:17762644
+Maleficent:90004449
+Maleficent!:17867510
+Marie:90004454
+Mary Poppins:90004456
+Mater:203074
+Maui:18524539
+Meeko:90004469
+Merida:16453979
+Mike Wazowski:90004483
+Miss Bunny:90004487
+Moana:18405224
+Mr. Easter Bunny:364983
+Mr. Incredible:48199
+Mr. Penguin:364901
+Mr. Potato Head:90004518
+Mr. Smee:90004519
+Mrs. Easter Bunny:364981
+Mrs. Incredible:48200
+Mrs. Potts:90004532
 Mulan:90004537
 Mushu:90004539
-Prince Ali:1426510
-Clarabelle Cow:90004019
-Frollo:90004202
-Horace Horsecollar:90004290
-Jafar:90004321
+Needleman:16726177
+Nemo:261227
+Nick Wilde:18368743
+Olaf:17813977
+Oswald:90004574
+Panchito:90004584
+Periwinkle:16726227
+Perla:54225
+Pete:90004603
+Peter Pan:90004605
+Phineas:15920090
+Piglet:90004614
+Pinocchio:90004618
+Pocahontas:90004626
+Prince Charming:90004638
+Prince Eric:90004148
+Prince John:90004639
+Prince Naveen:431485
+Prince Phillip:90004640
+Princess Aurora:90004642
+Princess Jasmine:90004328
+Princess Leia Organa:17345358
+Princess Tiana:431014
+Queen Amidala:365002
+Queen of Hearts:90004661
+Quincy:218197
+R2-D2:17345357
+Rabbit:364808
+Rafiki:90004665
+Ralph:16726715
+Rapunzel:15549505
+Red (the Fire Engine):16633247
+Redd:18710472
+Remy:218199
+Rex:90004682
+Rey:18730922
+Robin Hood:90004687
+Rosetta:306573
+Russell:339625
+Sadness:18188667
+Sally:90004711
+Sally Slater:19133568
+Scrooge McDuck:90004724
+Sebastian:90004730
+Shaak Ti:17345346
+Silvermist:306570
+Sleepy:90004762
+Slim:90004763
+Smitty:16726460
+Sneezy:90004769
+Snow White:90004772
+Sofia the First:17328170
+Sorcerer Mickey:17532228
+Sparky:90004778
+Spider-Man:18216469
+Star-Lord:18699344
+Stitch:90004789
+Stormtrooper:16726412
+Suzy:90004800
+Sweetums:16726595
+Tarzan:90004809
+Terence:15834742
+Terk:90004814
+The Mad Hatter:90004439
+The Prince:54221
+The Queen:177676
+Thor:18120550
+Thumper:90004836
+Tigger:90004840
+Timon:90004844
+Tinker Bell:90004846
+Tramp:90004860
+Tusken Raider:17345266
 Tweedledee:90004871
 Tweedledum:90004872
-Meeko:90004469
-Pocahontas:90004626
-King Louie:90004374
-Handy Manny:90004451
-Chewbacca:364853
-Ewoks:17345354
-Kylo Ren:18188660
-First Order Stormtrooper:18188658
-BB-8:18669336
-Cruz Ramirez:18699348
-Mr. Incredible:48199
-Frozone:48201
-Mrs. Incredible:48200
-Darth Vader:431065
-Asajj Ventress:17345347
-Captain Rex:17345349
-Ahsoka Tano:17345352
-Commander Cody:17345353
-Shaak Ti:17345346
-Anakin Skywalker:17345348
-Kit Fisto:17345351
-Mace Windu:17762644
-Luke Skywalker:17345356
-Princess Leia Organa:17345358
-Ralph:16726715
-Moana:18405224
-Timon:90004844
-Rafiki:90004665
-Dug:339623
-Russell:339625
-Mater:203074
-Lightning McQueen:203075
-Oswald:90004574
-Captain America:18120333
-Spider-Man:18216469
-Thor:18120550
-Loki:18730925
-Santa Claus:2342902
-Baymax:17885966
-Hiro:17885967
-Boba Fett:17345316
-Jango Fett:17345317
-Mike Wazowski:90004483
-James P. Sullivan (Sulley):90004323
-Needleman:16726177
-George Sanderson:17315099
-Boo:90003931
-Kermit:17532227
-Duffy the Disney Bear:15609854
-African Pygmy Goat:347100
-Poison Dart Frog:349451
-Tarantula:349458
-Cotton-top Tamarin:347107
-Flik:90004181
-White-Cheeked Gibbon:349466
-Elephant:347108
-Giraffe:347112
-Lion:349443
-Nile Crocodile:349447
-Rhinoceros:349454
-Bat:347104
-Komodo Dragon:347114
-Tiger:349457
-African Cichlids:347105
-Colobus Monkey:347106
-Gerenuk:347111
-Gorilla:347113
-Meerkat:349445
-Naked Mole Rat:349446
-Nile Hippopotamus:349448
-Okapi:349449
-Nemo:261227
+Ursula:90004887
+Vampirina:18710468
+Vanellope von Schweetz:16726751
+Vi Moradi:19323337
+Vidia:15609849
+Violet:16818199
+WALL*E:15831168
+Wendell:1237711
+Wendy:90004905
+White Rabbit:90004907
+Woody:90004925
+Yoda:17888784
+Zam Wesell:17345318
+Zero:90004939
