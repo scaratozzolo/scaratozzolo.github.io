@@ -37,7 +37,7 @@ if(localStorage.WCConfigData){
 }
 
 
-WC.Version = "0.6.5";
+WC.Version = "0.6.6";
 console.log("Work-Clicker.js v" + WC.Version);
 
 WC.Interval = null;
@@ -238,7 +238,7 @@ WC.AutoClick = function() {
 
 WC.Save = function(){
   if (typeof(Storage) !== "undefined") {
-    localStorage.WCConfigData = JSON.stringify(WC);
+    localStorage.WCConfigData = JSON.stringify(WC.Config);
     console.log('WC Saved');
   }
 }
