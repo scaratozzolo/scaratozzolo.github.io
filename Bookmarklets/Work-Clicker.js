@@ -52,7 +52,7 @@ Game.customTickers.push(WC.Custom.customTickersFunction);
 
 
 WC.Main = function() {
-
+  Game.UpdateMenu();
   if(WC.Clicking){	  
  	 WC.Clicking = false;
 	 WC.AutoclickingToggle();
