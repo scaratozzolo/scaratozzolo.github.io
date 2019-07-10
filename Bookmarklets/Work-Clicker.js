@@ -1,8 +1,5 @@
 var WC = {};
 
-if(localStorage.WCSaveData !== 'undefined'){
-	WC = JSON.parse(localStorage.WCSaveData);
-}
 
 
 WC.Version = "0.6.2";
