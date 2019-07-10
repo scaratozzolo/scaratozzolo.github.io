@@ -1,8 +1,10 @@
 var WC = {};
 
+if(localStorage.WCSaveData){
+	WC = JSON.parse(localStorage.WCSaveData);
+}
 
-
-WC.Version = "0.6.2";
+WC.Version = "0.6.3";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
