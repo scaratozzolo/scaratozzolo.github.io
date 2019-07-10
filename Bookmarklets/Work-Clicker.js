@@ -1,5 +1,5 @@
 var WC = {};
-WC.Version = "0.5.3";
+WC.Version = "0.5.4";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
@@ -86,7 +86,7 @@ WC.CustomMenu = function(){
     optionButton(listingdiv, 'autoclickButton', 'WC.AutoclickingToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !WC.Config.Clicking);
     optionButton(listingdiv, 'bigCookieButton', 'WC.BigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !WC.Config.BigCookieClicking);
     optionButton(listingdiv, 'shimmerButton', 'WC.ShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !WC.Config.ShimmerClicking);
-    optionButton(listingdiv, 'productClickButton', 'WC.ProductToggle();', 'Product Autoclicking', 'Turn on/off autoclicking of the highest product', !WC.Config.ProductClicking);
+    optionButton(listingdiv, 'productClickButton', 'WC.ProductToggle();', 'Product Auto Buying', 'Turn on/off auto buying of the highest product', !WC.Config.ProductClicking);
     optionButton(listingdiv, 'upgradeClickButton', 'WC.UpgradeToggle();', 'Upgrade Auto Buying', 'Turn on/off auto buying of upgrades', !WC.Config.UpgradeBuying);
 
     sub.appendChild(listingdiv);
@@ -166,12 +166,12 @@ WC.ShimmerToggle = function(){
 WC.ProductToggle = function(){
   var el = document.getElementById('productClickButton');
   if(WC.Config.ProductClicking){
-    el.textContent = "Product Autoclicking OFF";
+    el.textContent = "Product Auto Buying OFF";
     el.className = 'option off';
     WC.Config.ProductClicking = false
 
   }else{
-    el.textContent = "Product Autoclicking ON";
+    el.textContent = "Product Auto Buying ON";
     el.className = 'option';
     WC.Config.ProductClicking = true;
   }
