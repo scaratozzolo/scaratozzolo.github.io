@@ -1,4 +1,7 @@
 var WC = {};
+WC.Config = {};
+WC.Products = {};
+WC.Custom = {};
 
 if(localStorage.WCConfigData){
 	WC.Config = JSON.parse(localStorage.WCConfigData);
@@ -36,11 +39,6 @@ if(localStorage.WCConfigData){
 
 WC.Version = "0.6.5";
 console.log("Work-Clicker.js v" + WC.Version);
-
-
-WC.Config = {};
-WC.Products = {};
-WC.Custom = {};
 
 WC.Interval = null;
 
