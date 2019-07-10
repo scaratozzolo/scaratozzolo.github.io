@@ -37,7 +37,7 @@ if(localStorage.WCConfigData){
 }
 
 
-WC.Version = "0.6.8";
+WC.Version = "0.6.9";
 console.log("Work-Clicker.js v" + WC.Version);
 
 WC.Interval = null;
@@ -54,7 +54,11 @@ Game.customTickers.push(WC.Custom.customTickersFunction);
 WC.Main = function() {
 
   if(WC.Clicking){	  
- 	 WC.Interval = setInterval(function(){ WC.AutoClick(); }, WC.ClickSpeed);
+ 	 WC.Clicking = false;
+	 WC.AutoclickingToggle();
+  }else{
+	WC.Clicking = true;  
+	WC.AutoclickingToggle();
   }
   WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
   document.onkeydown = function(e){
