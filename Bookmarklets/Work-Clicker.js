@@ -37,7 +37,7 @@ if(localStorage.WCConfigData){
 }
 
 
-WC.Version = "0.6.9";
+WC.Version = "0.6.10";
 console.log("Work-Clicker.js v" + WC.Version);
 
 WC.Interval = null;
@@ -69,13 +69,15 @@ WC.Main = function() {
     }
   }
 
-  WC.UpdateMenu = Game.UpdateMenu;
-  Game.UpdateMenu = function(){
+  
+
+}
+
+WC.UpdateMenu = Game.UpdateMenu;
+Game.UpdateMenu = function(){
     WC.UpdateMenu();
     document.getElementById('menu').querySelector('.subsection').children[7].remove();
     WC.CustomMenu();
-  }
-
 }
 
 WC.CustomMenu = function(){
