@@ -37,7 +37,7 @@ if(localStorage.WCConfigData){
 }
 
 
-WC.Version = "0.6.10";
+WC.Version = "0.6.11";
 console.log("Work-Clicker.js v" + WC.Version);
 
 WC.Interval = null;
@@ -52,14 +52,7 @@ Game.customTickers.push(WC.Custom.customTickersFunction);
 
 
 WC.Main = function() {
-  Game.UpdateMenu();
-  if(WC.Clicking){	  
- 	 WC.Clicking = false;
-	 WC.AutoclickingToggle();
-  }else{
-	WC.Clicking = true;  
-	WC.AutoclickingToggle();
-  }
+  
   WC.SaveInterval = setInterval(function(){ WC.Save(); }, 1000);
   document.onkeydown = function(e){
     for(let item of Object.keys(WC.Config.KeyConfig)){
@@ -69,16 +62,24 @@ WC.Main = function() {
     }
   }
 
-  
-
-}
-
-WC.UpdateMenu = Game.UpdateMenu;
-Game.UpdateMenu = function(){
+  WC.UpdateMenu = Game.UpdateMenu;
+  Game.UpdateMenu = function(){
     WC.UpdateMenu();
     document.getElementById('menu').querySelector('.subsection').children[7].remove();
     WC.CustomMenu();
+  }
+ 
+  Game.UpdateMenu();
+  if(WC.Clicking){	  
+ 	 WC.Clicking = false;
+	 WC.AutoclickingToggle();
+  }else{
+	WC.Clicking = true;  
+	WC.AutoclickingToggle();
+  }
 }
+
+
 
 WC.CustomMenu = function(){
 	var titlediv = document.createElement('div');
@@ -88,18 +89,19 @@ WC.CustomMenu = function(){
 
 	if (Game.onMenu == 'prefs') {
 		var sub = document.getElementsByClassName('subsection')[0];
-    sub.appendChild(titlediv);
+	
+	    	sub.appendChild(titlediv);
 
-    var listingdiv = document.createElement('div');
-    listingdiv.className = 'listing';
+	   	var listingdiv = document.createElement('div');
+	   	listingdiv.className = 'listing';
 
-    optionButton(listingdiv, 'autoclickButton', 'WC.AutoclickingToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !WC.Config.Clicking);
-    optionButton(listingdiv, 'bigCookieButton', 'WC.BigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !WC.Config.BigCookieClicking);
-    optionButton(listingdiv, 'shimmerButton', 'WC.ShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !WC.Config.ShimmerClicking);
-    optionButton(listingdiv, 'productClickButton', 'WC.ProductToggle();', 'Product Auto Buying', 'Turn on/off auto buying of the highest product', !WC.Config.ProductClicking);
-    optionButton(listingdiv, 'upgradeClickButton', 'WC.UpgradeToggle();', 'Upgrade Auto Buying', 'Turn on/off auto buying of upgrades', !WC.Config.UpgradeBuying);
+	    	optionButton(listingdiv, 'autoclickButton', 'WC.AutoclickingToggle();', 'Autoclicking', 'Turn on/off all autoclicking', !WC.Config.Clicking);
+	    	optionButton(listingdiv, 'bigCookieButton', 'WC.BigCookieToggle();', 'Big Cookie Autoclicking', 'Turn on/off big cookie autoclicking', !WC.Config.BigCookieClicking);
+	    	optionButton(listingdiv, 'shimmerButton', 'WC.ShimmerToggle();', 'Shimmer Autoclicking', 'Turn on/off shimmer (golden cookie) autoclicking', !WC.Config.ShimmerClicking);
+	    	optionButton(listingdiv, 'productClickButton', 'WC.ProductToggle();', 'Product Auto Buying', 'Turn on/off auto buying of the highest product', !WC.Config.ProductClicking);
+	    	optionButton(listingdiv, 'upgradeClickButton', 'WC.UpgradeToggle();', 'Upgrade Auto Buying', 'Turn on/off auto buying of upgrades', !WC.Config.UpgradeBuying);
 
-    sub.appendChild(listingdiv);
+	    	sub.appendChild(listingdiv);
 	}
 }
 
