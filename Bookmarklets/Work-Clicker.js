@@ -1,5 +1,5 @@
 var WC = {};
-WC.Version = "0.5.4";
+WC.Version = "0.5.5";
 console.log("Work-Clicker.js v" + WC.Version);
 
 
@@ -38,6 +38,8 @@ WC.Config.KeyConfig.ManualBigCookie = {keyCode:67, func:function(){eventFire(doc
 WC.Config.KeyConfig.ManualShimmers = {keyCode:86, func:function(){if(document.getElementById('shimmers').innerHTML != "") eventFire(document.getElementsByClassName('shimmer')[0], 'click');;}}; //v
 
 WC.Products.HighestUnlocked = "";
+WC.Products.NumberOf = 16;
+WC.Products.FractalEnginesOwned = Game.ObjectsById[15].amount;
 
 WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + WC.Version];
 WC.Custom.customTickersFunction = function() { return WC.Custom.customTickers; }
@@ -222,6 +224,17 @@ WC.AutoClick = function() {
       }
       eventFire(document.getElementById(WC.Products.HighestUnlocked), 'click');
     }
+    //make it so it only runs on item buy, not every interval cycle
+    if(WC.Products.HighestUnlocked == 'product15'){
+      if(Game.ObjectsById[15].amount > WC.Products.FractalEnginesOwned){
+        for(let i = 0; i < WC.Products.NumberOf; i++){
+          document.getElementById('product'+parseInt(i)).click()
+        }
+        WC.Products.FractalEnginesOwned = Game.ObjectsById[15].amount;
+      }
+
+    }
+
   }
 
   if(WC.Config.UpgradeBuying){
