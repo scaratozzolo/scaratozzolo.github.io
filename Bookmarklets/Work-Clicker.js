@@ -43,7 +43,7 @@ WC.Products.FractalEnginesOwned = Game.ObjectsById[15].amount;
 
 WC.Custom.customTickers = ["Work-Clicker.js saves local man from getting cookies stolen by boss.", "News: Florida man steals employee's cookies for clicking too loud.", "Work-Clicker.js recieves yet another update. Now version " + WC.Version];
 WC.Custom.customTickersFunction = function() { return WC.Custom.customTickers; }
-Game.customTickers.push(WC.Custom.customTickersFunction);
+// Game.customTickers.push(WC.Custom.customTickersFunction);
 
 
 
