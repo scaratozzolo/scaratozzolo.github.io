@@ -8,5 +8,6 @@ function claim_bonus(){
   }
 }
 
+claim_bonus()
 setInterval(claim_bonus, 240000);
 
