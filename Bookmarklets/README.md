@@ -11,6 +11,7 @@ Scripts
 * [Add-Table-Hover.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#add-table-hoverjs)
 * [Vanish.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#vanishjs)
 * [Marqueeee.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#marqueeeejs)
+* [ttv_claim_bonus.js](https://github.com/scaratozzolo/scaratozzolo.github.io/tree/master/Bookmarklets#ttv_claim_bonusjs)
 
 
 ## Work-Clicker.js
