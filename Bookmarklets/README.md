@@ -72,3 +72,11 @@ Turn any text into a marquee.
 ```javascript
 javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/Marqueeee.js?v='+parseInt(Math.random()*99999999);document.head.appendChild(s);})();
 ```
+
+## ttv_claim_bonus.js
+
+Automatically click the claim bonus button on Twitch.
+
+```javascript
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://scaratozzolo.github.io/Bookmarklets/ttv_claim_bonus.js?v='+parseInt(Math.random()*99999999);document.head.appendChild(s);})();
+```
