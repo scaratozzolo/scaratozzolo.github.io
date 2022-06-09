@@ -9,5 +9,5 @@ function claim_bonus(){
 }
 
 claim_bonus()
-setInterval(claim_bonus, 240000);
+setInterval(claim_bonus, 60000);
 
